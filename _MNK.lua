@@ -1,0 +1,367 @@
+-- Persistent Data
+local multiRefObjects = {
+
+} -- multiRefObjects
+local obj1 = {
+	["classes"] = {
+		[1] = false;
+		[2] = true;
+		[3] = false;
+		[4] = false;
+		[5] = false;
+		[6] = false;
+		[7] = false;
+		[8] = false;
+		[9] = false;
+		[10] = false;
+		[11] = false;
+		[12] = false;
+		[13] = false;
+		[14] = false;
+		[15] = false;
+		[16] = false;
+		[17] = false;
+		[18] = false;
+		[19] = false;
+		[20] = true;
+		[21] = false;
+		[22] = false;
+		[23] = false;
+		[24] = false;
+		[25] = false;
+		[26] = false;
+		[27] = false;
+		[28] = false;
+		[29] = false;
+		[30] = false;
+		[31] = false;
+		[32] = false;
+		[33] = false;
+		[34] = false;
+		[35] = false;
+		[36] = false;
+	};
+	["filters"] = {
+		[1] = "No Buffs/Debuffs";
+		[2] = "";
+		[3] = "";
+		[4] = "";
+		[5] = "";
+	};
+	["skills"] = {
+		[1] = {
+			["gauge1lt"] = 2;
+			["gcd"] = "False";
+			["id"] = 56;
+			["ignoremoving"] = true;
+			["levelmin"] = 6;
+			["maxRange"] = 3;
+			["name"] = "Snap Punch";
+			["pbuff"] = "110";
+			["prio"] = 1;
+		};
+		[2] = {
+			["gauge3lt"] = 8;
+			["gcd"] = "False";
+			["id"] = 56;
+			["ignoremoving"] = true;
+			["levelmin"] = 6;
+			["maxRange"] = 3;
+			["name"] = "Snap Punch";
+			["pbuff"] = "110";
+			["prio"] = 2;
+		};
+		[3] = {
+			["gcd"] = "False";
+			["id"] = 61;
+			["ignoremoving"] = true;
+			["levelmin"] = 18;
+			["maxRange"] = 3;
+			["name"] = "Twin Snakes";
+			["pbuff"] = "110";
+			["pnbuff"] = "101";
+			["pnbuffdura"] = 5;
+			["prio"] = 3;
+		};
+		[4] = {
+			["gcd"] = "False";
+			["id"] = 74;
+			["ignoremoving"] = true;
+			["levelmin"] = 50;
+			["maxRange"] = 3;
+			["name"] = "Dragon Kick";
+			["pbuff"] = "110";
+			["prio"] = 4;
+			["tnbuff"] = "821";
+			["tnbuffdura"] = 5;
+			["tnbuffowner"] = "Any";
+		};
+		[5] = {
+			["gcd"] = "False";
+			["id"] = 53;
+			["ignoremoving"] = true;
+			["levelmin"] = 1;
+			["maxRange"] = 3;
+			["name"] = "Bootshine";
+			["pbuff"] = "110";
+			["prio"] = 5;
+		};
+		[6] = {
+			["filterone"] = "Off";
+			["gcd"] = "False";
+			["id"] = 66;
+			["ignoremoving"] = true;
+			["levelmin"] = 30;
+			["maxRange"] = 3;
+			["name"] = "Demolish";
+			["prio"] = 6;
+			["thpadv"] = 7;
+			["tnbuff"] = "246";
+			["tnbuffdura"] = 5;
+		};
+		[7] = {
+			["gcd"] = "False";
+			["id"] = 56;
+			["ignoremoving"] = true;
+			["levelmin"] = 6;
+			["maxRange"] = 3;
+			["name"] = "Snap Punch";
+			["prio"] = 7;
+		};
+		[8] = {
+			["filterone"] = "Off";
+			["gcd"] = "False";
+			["id"] = 61;
+			["ignoremoving"] = true;
+			["levelmin"] = 18;
+			["maxRange"] = 3;
+			["name"] = "Twin Snakes";
+			["pnbuff"] = "101";
+			["pnbuffdura"] = 5;
+			["prio"] = 8;
+		};
+		[9] = {
+			["gcd"] = "False";
+			["id"] = 54;
+			["ignoremoving"] = true;
+			["levelmin"] = 4;
+			["maxRange"] = 3;
+			["name"] = "True Strike";
+			["prio"] = 9;
+		};
+		[10] = {
+			["filterone"] = "Off";
+			["gcd"] = "False";
+			["id"] = 74;
+			["ignoremoving"] = true;
+			["levelmin"] = 50;
+			["maxRange"] = 3;
+			["name"] = "Dragon Kick";
+			["pbuff"] = "107";
+			["prio"] = 10;
+			["tnbuff"] = "821";
+			["tnbuffdura"] = 5;
+			["tnbuffowner"] = "Any";
+		};
+		[11] = {
+			["gcd"] = "False";
+			["id"] = 53;
+			["ignoremoving"] = true;
+			["levelmin"] = 1;
+			["maxRange"] = 3;
+			["name"] = "Bootshine";
+			["prio"] = 11;
+		};
+		[12] = {
+			["gauge1lt"] = 1;
+			["gcd"] = "True";
+			["gcdtime"] = 0.80000001192093;
+			["id"] = 69;
+			["ignoremoving"] = true;
+			["levelmin"] = 50;
+			["maxRange"] = 0;
+			["name"] = "Perfect Balance";
+			["prio"] = 12;
+			["trg"] = "Player";
+		};
+		[13] = {
+			["gcd"] = "True";
+			["gcdtime"] = 0.80000001192093;
+			["id"] = 7541;
+			["ignoremoving"] = true;
+			["levelmin"] = 8;
+			["maxRange"] = 0;
+			["name"] = "Second Wind";
+			["phpb"] = 50;
+			["prio"] = 13;
+			["trg"] = "Player";
+		};
+		[14] = {
+			["combat"] = "Any";
+			["gcd"] = "True";
+			["gcdtime"] = 0.80000001192093;
+			["id"] = 63;
+			["ignoremoving"] = true;
+			["levelmin"] = 40;
+			["maxRange"] = 0;
+			["name"] = "Fists of Fire";
+			["pnbuff"] = "103";
+			["prio"] = 14;
+			["trg"] = "Player";
+		};
+		[15] = {
+			["gcd"] = "True";
+			["gcdtime"] = 0.80000001192093;
+			["id"] = 59;
+			["ignoremoving"] = true;
+			["levelmin"] = 10;
+			["maxRange"] = 0;
+			["name"] = "Internal Release";
+			["prio"] = 15;
+			["trg"] = "Player";
+		};
+		[16] = {
+			["gcd"] = "True";
+			["gcdtime"] = 0.80000001192093;
+			["id"] = 7396;
+			["ignoremoving"] = true;
+			["levelmin"] = 70;
+			["maxRange"] = 0;
+			["name"] = "Brotherhood";
+			["prio"] = 16;
+			["tarange"] = 15;
+			["terange"] = 15;
+			["trg"] = "Player";
+		};
+		[17] = {
+			["gcd"] = "True";
+			["gcdtime"] = 0.80000001192093;
+			["id"] = 7395;
+			["ignoremoving"] = true;
+			["levelmin"] = 68;
+			["maxRange"] = 0;
+			["name"] = "Riddle of Fire";
+			["pnbuff"] = "110";
+			["prio"] = 17;
+			["trg"] = "Player";
+		};
+		[18] = {
+			["gcd"] = "True";
+			["gcdtime"] = 0.80000001192093;
+			["id"] = 7542;
+			["ignoremoving"] = true;
+			["levelmin"] = 32;
+			["maxRange"] = 0;
+			["name"] = "Bloodbath";
+			["phpb"] = 75;
+			["prio"] = 18;
+			["trg"] = "Player";
+		};
+		[19] = {
+			["gauge2eq"] = 5;
+			["gcd"] = "True";
+			["gcdtime"] = 0.80000001192093;
+			["id"] = 3547;
+			["ignoremoving"] = true;
+			["levelmin"] = 54;
+			["maxRange"] = 0;
+			["name"] = "The Forbidden Chakra";
+			["prio"] = 19;
+		};
+		[20] = {
+			["gcd"] = "True";
+			["gcdtime"] = 0.80000001192093;
+			["id"] = 3545;
+			["ignoremoving"] = true;
+			["levelmin"] = 56;
+			["maxRange"] = 0;
+			["name"] = "Elixir Field";
+			["prio"] = 20;
+			["tarange"] = 5;
+			["terange"] = 5;
+			["trg"] = "Player";
+		};
+		[21] = {
+			["gcd"] = "True";
+			["gcdtime"] = 0.80000001192093;
+			["id"] = 67;
+			["ignoremoving"] = true;
+			["levelmin"] = 46;
+			["maxRange"] = 10;
+			["name"] = "Howling Fist";
+			["prio"] = 21;
+			["tarange"] = 10;
+			["terange"] = 10;
+		};
+		[22] = {
+			["gcd"] = "True";
+			["gcdtime"] = 0.80000001192093;
+			["id"] = 64;
+			["ignoremoving"] = true;
+			["levelmin"] = 38;
+			["maxRange"] = 3;
+			["name"] = "Steel Peak";
+			["prio"] = 22;
+		};
+		[23] = {
+			["charge"] = true;
+			["gcd"] = "True";
+			["gcdtime"] = 0.80000001192093;
+			["id"] = 71;
+			["ignoremoving"] = true;
+			["levelmin"] = 35;
+			["maxRange"] = 20;
+			["name"] = "Fire Tackle";
+			["prio"] = 23;
+		};
+		[24] = {
+			["gcd"] = "True";
+			["gcdtime"] = 0.80000001192093;
+			["id"] = 7546;
+			["ignoremoving"] = true;
+			["levelmin"] = 48;
+			["maxRange"] = 0;
+			["name"] = "True North";
+			["prio"] = 24;
+			["trg"] = "Player";
+		};
+		[25] = {
+			["gcd"] = "True";
+			["gcdtime"] = 0.80000001192093;
+			["id"] = 7544;
+			["ignoremoving"] = true;
+			["levelmin"] = 24;
+			["maxRange"] = 0;
+			["name"] = "Invigorate";
+			["prio"] = 25;
+			["ptpb"] = 500;
+			["trg"] = "Player";
+		};
+		[26] = {
+			["gcd"] = "True";
+			["gcdtime"] = 0.80000001192093;
+			["id"] = 7545;
+			["ignoremoving"] = true;
+			["levelmin"] = 20;
+			["maxRange"] = 0;
+			["name"] = "Diversion";
+			["prio"] = 26;
+			["trg"] = "Player";
+		};
+		[27] = {
+			["combat"] = "Out of Combat";
+			["gauge2lt"] = 4;
+			["gcd"] = "False";
+			["id"] = 3546;
+			["ignoremoving"] = true;
+			["levelmin"] = 54;
+			["maxRange"] = 0;
+			["name"] = "Meditation";
+			["prio"] = 27;
+			["secspassedu"] = 1.7000000476837;
+			["trg"] = "Player";
+		};
+	};
+	["version"] = 3;
+}
+return obj1
