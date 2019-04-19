@@ -159,7 +159,7 @@ local obj1 = {
 			["pcskill"] = "15";
 			["playerlevelmin"] = 54;
 			["prio"] = 9;
-			["thpadv"] = 5.1999998092651;
+			["thpadv"] = 5;
 			["tnbuff"] = "725";
 			["tnbuffdura"] = 4;
 		};
