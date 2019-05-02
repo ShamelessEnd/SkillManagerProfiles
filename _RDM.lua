@@ -496,7 +496,7 @@ local obj1 = {
 			["maxRange"] = 0;
 			["name"] = "Diversion";
 			["prio"] = 39;
-			["thpadv"] = 5;
+			["thpadv"] = 7;
 			["trg"] = "Player";
 		};
 	};

@@ -70,6 +70,8 @@ local obj1 = {
 			["levelmin"] = 30;
 			["maxRange"] = 0;
 			["name"] = "Midare Setsugekka";
+			["ncurrentaction"] = "7495";
+			["npskill"] = "7495";
 			["prio"] = 2;
 		};
 		[3] = {
@@ -413,6 +415,7 @@ local obj1 = {
 			["maxRange"] = 0;
 			["name"] = "Diversion";
 			["prio"] = 31;
+			["thpadv"] = 7;
 			["trg"] = "Player";
 		};
 	};
