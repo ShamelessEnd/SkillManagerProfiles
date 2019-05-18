@@ -43,7 +43,7 @@ local obj1 = {
 	};
 	["filters"] = {
 		[1] = "No Buffs/Debuffs";
-		[2] = "";
+		[2] = "Diversion Off";
 		[3] = "";
 		[4] = "";
 		[5] = "";
@@ -338,6 +338,7 @@ local obj1 = {
 			["trg"] = "Player";
 		};
 		[26] = {
+			["filtertwo"] = "Off";
 			["gcd"] = "True";
 			["gcdtime"] = 0.80000001192093;
 			["id"] = 7545;

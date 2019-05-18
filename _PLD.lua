@@ -42,7 +42,7 @@ local obj1 = {
 		[36] = false;
 	};
 	["filters"] = {
-		[1] = "Stance Sheild/Sword";
+		[1] = "Shield Oath";
 		[2] = "Emergency Heal";
 		[3] = "Halone";
 		[4] = "";
@@ -101,7 +101,7 @@ local obj1 = {
 			["gcdtime"] = 0.5;
 			["hprio1"] = "Party";
 			["hprio2"] = "Self";
-			["hpriohp"] = 33;
+			["hpriohp"] = 66;
 			["id"] = 3541;
 			["levelmin"] = 58;
 			["maxRange"] = 30;
@@ -121,6 +121,7 @@ local obj1 = {
 		};
 		[7] = {
 			["combat"] = "Any";
+			["filterthree"] = "Off";
 			["gcd"] = "False";
 			["gcdtime"] = 0.5;
 			["id"] = 7384;
