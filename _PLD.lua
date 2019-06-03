@@ -233,7 +233,7 @@ local obj1 = {
 			["levelmin"] = 1;
 			["maxRange"] = 0;
 			["name"] = "Fast Blade";
-			["npskill"] = "7383";
+			["ncurrentaction"] = "7383";
 			["playerlevelmin"] = 1;
 			["prio"] = 15;
 			["ptrg"] = "Enemy";
@@ -264,8 +264,7 @@ local obj1 = {
 		[18] = {
 			["dobuff"] = true;
 			["gcd"] = "True";
-			["gcdtime"] = 0.5;
-			["gcdtimelt"] = 1.75;
+			["gcdtime"] = 0.80000001192093;
 			["id"] = 20;
 			["ignoremoving"] = true;
 			["levelmin"] = 2;
@@ -277,6 +276,7 @@ local obj1 = {
 			["trg"] = "Player";
 		};
 		[19] = {
+			["dobuff"] = true;
 			["gcd"] = "True";
 			["gcdtime"] = 0.5;
 			["gcdtimelt"] = 1.75;
@@ -285,10 +285,10 @@ local obj1 = {
 			["levelmin"] = 68;
 			["maxRange"] = 3;
 			["name"] = "Requiescat";
-			["npgskill"] = "9,15,11";
+			["pgskill"] = "3539,3538,21";
+			["pmppl"] = 80;
 			["pnbuff"] = "76";
 			["pnbuffdura"] = 5;
-			["ppowl"] = 80;
 			["prio"] = 19;
 		};
 		[20] = {
@@ -330,7 +330,6 @@ local obj1 = {
 			["trg"] = "Player";
 		};
 		[23] = {
-			["gauge1eq"] = 100;
 			["gcd"] = "True";
 			["gcdtime"] = 0.80000001192093;
 			["id"] = 3542;
@@ -448,6 +447,17 @@ local obj1 = {
 			["prio"] = 30;
 			["punderattack"] = true;
 			["trg"] = "Player";
+		};
+		[31] = {
+			["filterone"] = "On";
+			["filterthree"] = "On";
+			["id"] = 7533;
+			["levelmin"] = 16;
+			["maxRange"] = 25;
+			["name"] = "Provoke";
+			["prio"] = 31;
+			["thpadv"] = 5;
+			["trg"] = "Tankable Target";
 		};
 	};
 	["update"] = 20190307;
