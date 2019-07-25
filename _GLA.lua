@@ -42,8 +42,8 @@ local obj1 = {
 		[36] = false;
 	};
 	["filters"] = {
-		[1] = "Stance Sheild/Sword";
-		[2] = "AOE On/Off";
+		[1] = "";
+		[2] = "";
 		[3] = "";
 		[4] = "";
 		[5] = "";
