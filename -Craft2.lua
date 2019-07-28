@@ -317,56 +317,65 @@ local obj1 = {
 			["type"] = 9;
 		};
 		[30] = {
+			["condition"] = "Excellent";
+			["id"] = 100329;
+			["iqstackmax"] = 1;
+			["name"] = "Delicate Synthesis";
+			["prio"] = 30;
+			["qualitymaxper"] = 100;
+			["type"] = 9;
+		};
+		[31] = {
 			["id"] = 267;
 			["iqstackmax"] = 1;
 			["name"] = "Great Strides";
 			["playerlevelmin"] = 21;
-			["prio"] = 30;
-			["qualitymaxper"] = 100;
-		};
-		[31] = {
-			["id"] = 284;
-			["iqstackmax"] = 1;
-			["name"] = "Innovation";
-			["playerlevelmin"] = 50;
 			["prio"] = 31;
 			["qualitymaxper"] = 100;
 		};
 		[32] = {
+			["id"] = 284;
+			["iqstackmax"] = 1;
+			["name"] = "Innovation";
+			["playerlevelmin"] = 50;
+			["prio"] = 32;
+			["qualitymaxper"] = 100;
+		};
+		[33] = {
 			["id"] = 100330;
 			["iqstackmax"] = 1;
 			["name"] = "Delicate Synthesis";
-			["prio"] = 32;
+			["prio"] = 33;
 			["qualitymaxper"] = 100;
 			["type"] = 9;
 		};
-		[33] = {
+		[34] = {
 			["id"] = 267;
 			["iqstackmax"] = 1;
 			["name"] = "Great Strides";
 			["playerlevelmin"] = 21;
-			["prio"] = 33;
-			["qualitymaxper"] = 100;
-		};
-		[34] = {
-			["id"] = 100330;
-			["name"] = "Delicate Synthesis";
 			["prio"] = 34;
 			["qualitymaxper"] = 100;
-			["singleuseonly"] = false;
-			["type"] = 9;
 		};
 		[35] = {
-			["id"] = 100210;
-			["name"] = "Careful Synthesis III";
+			["id"] = 100330;
+			["name"] = "Delicate Synthesis";
 			["prio"] = 35;
+			["qualitymaxper"] = 100;
 			["singleuseonly"] = false;
 			["type"] = 9;
 		};
 		[36] = {
+			["id"] = 100210;
+			["name"] = "Careful Synthesis III";
+			["prio"] = 36;
+			["singleuseonly"] = false;
+			["type"] = 9;
+		};
+		[37] = {
 			["id"] = 100069;
 			["name"] = "Careful Synthesis II";
-			["prio"] = 36;
+			["prio"] = 37;
 			["singleuseonly"] = false;
 			["type"] = 9;
 		};
