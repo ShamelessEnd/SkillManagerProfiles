@@ -104,6 +104,9 @@ local obj1 = {
 			["name"] = "Life Surge";
 			["pgskill"] = "7397";
 			["prio"] = 4;
+			["tecenter"] = "Self";
+			["tecount"] = 3;
+			["terange"] = 7;
 			["trg"] = "Player";
 		};
 		[5] = {
@@ -138,6 +141,7 @@ local obj1 = {
 			["terange"] = 15;
 		};
 		[7] = {
+			["dobuff"] = true;
 			["gcd"] = "True";
 			["gcdtime"] = 0.80000001192093;
 			["id"] = 7546;
@@ -149,7 +153,8 @@ local obj1 = {
 			["npskill"] = "92,95,96,16478,16480";
 			["pgskill"] = "87,88,84";
 			["prio"] = 7;
-			["secspassedu"] = 12;
+			["secspassed"] = 10;
+			["secspassedu"] = 10;
 			["tecenter"] = "Self";
 			["tecount2"] = 2;
 			["terange"] = 7;
@@ -370,7 +375,7 @@ local obj1 = {
 			["tarange"] = 10;
 			["tecenter"] = "Self";
 			["tecount"] = 3;
-			["terange"] = 7;
+			["terange"] = 8;
 		};
 		[23] = {
 			["dobuff"] = true;
@@ -460,11 +465,15 @@ local obj1 = {
 			["id"] = 86;
 			["levelmin"] = 40;
 			["maxRange"] = 10;
-			["minRange"] = 5;
+			["minRange"] = 6;
 			["name"] = "Doom Spike";
+			["npcskill"] = "75,78,87,16479";
+			["npgskill"] = "84,88";
+			["pnbuff"] = "803+802";
 			["prio"] = 30;
 			["tarange"] = 10;
 			["terange"] = 10;
+			["thpb"] = 95;
 		};
 	};
 	["version"] = 3;

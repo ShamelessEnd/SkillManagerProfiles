@@ -138,7 +138,7 @@ local obj1 = {
 			["id"] = 100022;
 			["name"] = "Advanced Touch";
 			["prio"] = 13;
-			["qualitymaxper"] = 50;
+			["qualitymaxper"] = 75;
 			["type"] = 9;
 		};
 		[14] = {
