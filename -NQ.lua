@@ -52,15 +52,41 @@ local obj1 = {
 	};
 	["skills"] = {
 		[1] = {
-			["id"] = 4611;
-			["name"] = "Steady Hand II";
-			["playerlevelmin"] = 37;
+			["id"] = 100136;
+			["maxdurabmax"] = 41;
+			["maxprogrmin"] = 4500;
+			["name"] = "Muscle Memory";
 			["prio"] = 1;
+			["type"] = 9;
 		};
 		[2] = {
-			["id"] = 100312;
-			["name"] = "Rapid Synthesis III";
+			["durabmax"] = 21;
+			["id"] = 100003;
+			["name"] = "Master's Mend";
 			["prio"] = 2;
+			["singleuseonly"] = false;
+			["type"] = 9;
+		};
+		[3] = {
+			["cpnbuff"] = "262";
+			["id"] = 4607;
+			["name"] = "Steady Hand II";
+			["playerlevelmin"] = 37;
+			["prio"] = 3;
+			["singleuseonly"] = false;
+		};
+		[4] = {
+			["cpnbuff"] = "255";
+			["id"] = 277;
+			["name"] = "Ingenuity";
+			["playerlevelmin"] = 15;
+			["prio"] = 4;
+			["singleuseonly"] = false;
+		};
+		[5] = {
+			["id"] = 100307;
+			["name"] = "Rapid Synthesis III";
+			["prio"] = 5;
 			["singleuseonly"] = false;
 			["type"] = 9;
 		};

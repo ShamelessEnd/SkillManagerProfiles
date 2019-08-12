@@ -161,6 +161,19 @@ local obj1 = {
 			["trg"] = "Player";
 		};
 		[8] = {
+			["gcd"] = "True";
+			["gcdtime"] = 0.80000001192093;
+			["id"] = 7398;
+			["ignoremoving"] = true;
+			["levelmin"] = 66;
+			["maxRange"] = 12;
+			["name"] = "Dragon Sight";
+			["ncurrentaction"] = "92,95,96,16478,16480";
+			["npskill"] = "92,95,96,16478,16480";
+			["prio"] = 31;
+			["trg"] = "Party";
+		};
+		[9] = {
 			["dobuff"] = true;
 			["gcd"] = "True";
 			["gcdtime"] = 0.80000001192093;
@@ -174,7 +187,7 @@ local obj1 = {
 			["prio"] = 8;
 			["trg"] = "Player";
 		};
-		[9] = {
+		[10] = {
 			["dobuff"] = true;
 			["gcd"] = "True";
 			["gcdtime"] = 0.80000001192093;
@@ -190,7 +203,7 @@ local obj1 = {
 			["terange"] = 15;
 			["trg"] = "Player";
 		};
-		[10] = {
+		[11] = {
 			["dobuff"] = true;
 			["gcd"] = "True";
 			["gcdtime"] = 0.80000001192093;
@@ -204,7 +217,7 @@ local obj1 = {
 			["prio"] = 10;
 			["trg"] = "Player";
 		};
-		[11] = {
+		[12] = {
 			["gauge1eq"] = 2;
 			["gcd"] = "True";
 			["gcdtime"] = 1.6000000238419;
@@ -218,7 +231,7 @@ local obj1 = {
 			["tarange"] = 5;
 			["terange"] = 5;
 		};
-		[12] = {
+		[13] = {
 			["alias"] = "Geir (Life)";
 			["gauge2eq"] = 2;
 			["gcd"] = "True";
@@ -234,7 +247,7 @@ local obj1 = {
 			["tarange"] = 15;
 			["terange"] = 15;
 		};
-		[13] = {
+		[14] = {
 			["gcd"] = "True";
 			["gcdtime"] = 0.80000001192093;
 			["id"] = 7399;
@@ -247,7 +260,7 @@ local obj1 = {
 			["prio"] = 13;
 			["removebuff"] = true;
 		};
-		[14] = {
+		[15] = {
 			["dobuff"] = true;
 			["gauge1gt"] = 1;
 			["gauge2lt"] = 1;
@@ -261,7 +274,7 @@ local obj1 = {
 			["npskill"] = "92,95,96,16478,16480";
 			["prio"] = 14;
 		};
-		[15] = {
+		[16] = {
 			["dobuff"] = true;
 			["gauge1gt"] = 1;
 			["gauge2lt"] = 1;
@@ -276,7 +289,7 @@ local obj1 = {
 			["pnbuff"] = "1243";
 			["prio"] = 15;
 		};
-		[16] = {
+		[17] = {
 			["charge"] = true;
 			["dobuff"] = true;
 			["gauge1gt"] = 1;
@@ -291,7 +304,7 @@ local obj1 = {
 			["pnbuff"] = "1243";
 			["prio"] = 16;
 		};
-		[17] = {
+		[18] = {
 			["charge"] = true;
 			["gcd"] = "True";
 			["gcdtime"] = 1.6000000238419;
@@ -305,7 +318,7 @@ local obj1 = {
 			["tarange"] = 5;
 			["terange"] = 5;
 		};
-		[18] = {
+		[19] = {
 			["gauge2lt"] = 1;
 			["gcd"] = "True";
 			["gcdtime"] = 0.80000001192093;
@@ -321,7 +334,7 @@ local obj1 = {
 			["tarange"] = 15;
 			["terange"] = 15;
 		};
-		[19] = {
+		[20] = {
 			["gcd"] = "True";
 			["gcdtime"] = 0.80000001192093;
 			["id"] = 7542;
@@ -335,7 +348,7 @@ local obj1 = {
 			["prio"] = 19;
 			["trg"] = "Player";
 		};
-		[20] = {
+		[21] = {
 			["gcd"] = "False";
 			["gcdtime"] = 0;
 			["id"] = 16477;
@@ -348,7 +361,7 @@ local obj1 = {
 			["tarange"] = 10;
 			["terange"] = 10;
 		};
-		[21] = {
+		[22] = {
 			["gcd"] = "False";
 			["gcdtime"] = 0;
 			["id"] = 7397;
@@ -361,7 +374,7 @@ local obj1 = {
 			["tarange"] = 10;
 			["terange"] = 10;
 		};
-		[22] = {
+		[23] = {
 			["gcd"] = "False";
 			["gcdtime"] = 0;
 			["id"] = 86;
@@ -377,7 +390,7 @@ local obj1 = {
 			["tecount"] = 3;
 			["terange"] = 8;
 		};
-		[23] = {
+		[24] = {
 			["dobuff"] = true;
 			["gcd"] = "False";
 			["gcdtime"] = 0;
@@ -389,7 +402,7 @@ local obj1 = {
 			["pbuff"] = "802";
 			["prio"] = 23;
 		};
-		[24] = {
+		[25] = {
 			["dobuff"] = true;
 			["gcd"] = "False";
 			["gcdtime"] = 0;
@@ -401,7 +414,7 @@ local obj1 = {
 			["pbuff"] = "803";
 			["prio"] = 24;
 		};
-		[25] = {
+		[26] = {
 			["dobuff"] = true;
 			["gcd"] = "False";
 			["gcdtime"] = 0;
@@ -413,7 +426,7 @@ local obj1 = {
 			["pcskill"] = "87";
 			["prio"] = 25;
 		};
-		[26] = {
+		[27] = {
 			["gcd"] = "False";
 			["gcdtime"] = 0;
 			["id"] = 87;
@@ -426,7 +439,7 @@ local obj1 = {
 			["pnbuffdura"] = 10;
 			["prio"] = 26;
 		};
-		[27] = {
+		[28] = {
 			["gcd"] = "False";
 			["gcdtime"] = 0;
 			["id"] = 84;
@@ -437,7 +450,7 @@ local obj1 = {
 			["pcskill"] = "78";
 			["prio"] = 27;
 		};
-		[28] = {
+		[29] = {
 			["gcd"] = "False";
 			["gcdtime"] = 0;
 			["id"] = 78;
@@ -448,7 +461,7 @@ local obj1 = {
 			["pcskill"] = "75,16479";
 			["prio"] = 28;
 		};
-		[29] = {
+		[30] = {
 			["gcd"] = "False";
 			["gcdtime"] = 0;
 			["id"] = 75;
@@ -458,7 +471,7 @@ local obj1 = {
 			["name"] = "True Thrust";
 			["prio"] = 29;
 		};
-		[30] = {
+		[31] = {
 			["gauge3gt"] = 1000;
 			["gcd"] = "False";
 			["gcdtime"] = 0;
