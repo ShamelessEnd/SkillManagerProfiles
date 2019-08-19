@@ -157,6 +157,33 @@ local obj1 = {
 			["prio"] = 8;
 		};
 		[9] = {
+			["gauge2gt"] = 1;
+			["gauge4lt"] = 8000;
+			["gcd"] = "False";
+			["gcdtime"] = 0;
+			["id"] = 152;
+			["ignoremoving"] = true;
+			["levelmin"] = 34;
+			["maxRange"] = 25;
+			["name"] = "Fire III";
+			["pbuff"] = "165";
+			["pgskill"] = "3577,16505";
+			["prio"] = 11;
+		};
+		[10] = {
+			["gauge3or"] = "1";
+			["gauge4gt"] = 6000;
+			["gauge5eq"] = 2;
+			["gcd"] = "False";
+			["gcdtime"] = 0;
+			["id"] = 16507;
+			["ignoremoving"] = true;
+			["levelmin"] = 80;
+			["maxRange"] = 25;
+			["name"] = "Xenoglossy";
+			["prio"] = 31;
+		};
+		[11] = {
 			["gauge3or"] = "1";
 			["gauge4gt"] = 6000;
 			["gcd"] = "False";
@@ -174,7 +201,7 @@ local obj1 = {
 			["tecount2"] = 2;
 			["terange"] = 7;
 		};
-		[10] = {
+		[12] = {
 			["gauge3or"] = "1";
 			["gauge4gt"] = 6000;
 			["gcd"] = "False";
@@ -191,20 +218,7 @@ local obj1 = {
 			["tecount"] = 3;
 			["terange"] = 7;
 		};
-		[11] = {
-			["gauge2gt"] = 1;
-			["gcd"] = "False";
-			["gcdtime"] = 0;
-			["id"] = 152;
-			["ignoremoving"] = true;
-			["levelmin"] = 34;
-			["maxRange"] = 25;
-			["name"] = "Fire III";
-			["pbuff"] = "165";
-			["pgskill"] = "3577,16505";
-			["prio"] = 11;
-		};
-		[12] = {
+		[13] = {
 			["gauge3or"] = "1";
 			["gauge4gt"] = 6000;
 			["gcd"] = "False";
@@ -217,7 +231,7 @@ local obj1 = {
 			["tarange"] = 5;
 			["terange"] = 5;
 		};
-		[13] = {
+		[14] = {
 			["gauge2or"] = "3";
 			["gcd"] = "False";
 			["gcdtime"] = 0;
@@ -231,7 +245,7 @@ local obj1 = {
 			["tecount"] = 3;
 			["terange"] = 7;
 		};
-		[14] = {
+		[15] = {
 			["gauge2or"] = "3";
 			["gcd"] = "False";
 			["gcdtime"] = 0;
@@ -242,7 +256,7 @@ local obj1 = {
 			["ppowb"] = 2300;
 			["prio"] = 14;
 		};
-		[15] = {
+		[16] = {
 			["gauge2or"] = "3";
 			["gauge4gt"] = 6000;
 			["gcd"] = "False";
@@ -254,7 +268,19 @@ local obj1 = {
 			["ppowl"] = 1800;
 			["prio"] = 15;
 		};
-		[16] = {
+		[17] = {
+			["gauge2gt"] = 1;
+			["gcd"] = "False";
+			["gcdtime"] = 0;
+			["id"] = 152;
+			["ignoremoving"] = true;
+			["levelmin"] = 34;
+			["maxRange"] = 25;
+			["name"] = "Fire III";
+			["pbuff"] = "165";
+			["prio"] = 32;
+		};
+		[18] = {
 			["gauge1or"] = "0";
 			["gauge2lt"] = -1;
 			["gcd"] = "False";
@@ -269,7 +295,7 @@ local obj1 = {
 			["tecount"] = 3;
 			["terange"] = 7;
 		};
-		[17] = {
+		[19] = {
 			["gauge1or"] = "0";
 			["gauge2or"] = "-3";
 			["gauge4gt"] = 5000;
@@ -281,7 +307,7 @@ local obj1 = {
 			["name"] = "Blizzard IV";
 			["prio"] = 17;
 		};
-		[18] = {
+		[20] = {
 			["gauge2or"] = "-3";
 			["gauge4gt"] = 5500;
 			["gcd"] = "False";
@@ -300,7 +326,7 @@ local obj1 = {
 			["tecount"] = 3;
 			["terange"] = 7;
 		};
-		[19] = {
+		[21] = {
 			["dobuff"] = true;
 			["gauge2or"] = "-3";
 			["gauge4gt"] = 5500;
@@ -320,7 +346,7 @@ local obj1 = {
 			["tnbuff"] = "163+1210";
 			["tnbuffdura"] = 5;
 		};
-		[20] = {
+		[22] = {
 			["gauge1gt"] = 1;
 			["gauge2lt"] = 1;
 			["gcd"] = "False";
@@ -331,7 +357,7 @@ local obj1 = {
 			["name"] = "Fire III";
 			["prio"] = 20;
 		};
-		[21] = {
+		[23] = {
 			["gauge2gt"] = 1;
 			["gcd"] = "False";
 			["gcdtime"] = 0;
@@ -341,7 +367,7 @@ local obj1 = {
 			["name"] = "Fire";
 			["prio"] = 21;
 		};
-		[22] = {
+		[24] = {
 			["gauge2gt"] = 1;
 			["gcd"] = "False";
 			["gcdtime"] = 0;
@@ -355,7 +381,7 @@ local obj1 = {
 			["prio"] = 22;
 			["sknready"] = "158";
 		};
-		[23] = {
+		[25] = {
 			["gauge2lt"] = -1;
 			["gauge4lt"] = 4999;
 			["gcd"] = "False";
@@ -366,7 +392,17 @@ local obj1 = {
 			["name"] = "Blizzard";
 			["prio"] = 23;
 		};
-		[24] = {
+		[26] = {
+			["gcd"] = "False";
+			["gcdtime"] = 0;
+			["id"] = 16507;
+			["ignoremoving"] = true;
+			["levelmin"] = 80;
+			["maxRange"] = 25;
+			["name"] = "Xenoglossy";
+			["prio"] = 30;
+		};
+		[27] = {
 			["combat"] = "Out of Combat";
 			["gauge1lt"] = 2;
 			["gcd"] = "False";
@@ -377,10 +413,10 @@ local obj1 = {
 			["maxRange"] = 0;
 			["name"] = "Umbral Soul";
 			["ncurrentaction"] = "152,3577,141,154";
-			["prio"] = 28;
+			["prio"] = 24;
 			["trg"] = "Player";
 		};
-		[25] = {
+		[28] = {
 			["combat"] = "Out of Combat";
 			["gauge4lt"] = 9999;
 			["id"] = 16506;
@@ -388,10 +424,10 @@ local obj1 = {
 			["maxRange"] = 0;
 			["name"] = "Umbral Soul";
 			["ncurrentaction"] = "152,3577,141,154";
-			["prio"] = 29;
+			["prio"] = 25;
 			["trg"] = "Player";
 		};
-		[26] = {
+		[29] = {
 			["combat"] = "Out of Combat";
 			["gauge2gt"] = 1;
 			["gauge4gt"] = 1;
@@ -403,10 +439,10 @@ local obj1 = {
 			["maxRange"] = 0;
 			["name"] = "Transpose";
 			["ncurrentaction"] = "152,3577,141,154";
-			["prio"] = 27;
+			["prio"] = 26;
 			["trg"] = "Player";
 		};
-		[27] = {
+		[30] = {
 			["combat"] = "Out of Combat";
 			["gauge4gt"] = 1;
 			["gauge4lt"] = 5000;
@@ -418,10 +454,10 @@ local obj1 = {
 			["maxRange"] = 0;
 			["name"] = "Transpose";
 			["ncurrentaction"] = "152,3577,141,154";
-			["prio"] = 24;
+			["prio"] = 27;
 			["trg"] = "Player";
 		};
-		[28] = {
+		[31] = {
 			["gauge2gt"] = 1;
 			["gauge4gt"] = 1;
 			["gcd"] = "False";
@@ -433,11 +469,11 @@ local obj1 = {
 			["name"] = "Transpose";
 			["ncurrentaction"] = "158";
 			["ppowb"] = 200;
-			["prio"] = 25;
+			["prio"] = 28;
 			["sknoffcd"] = "158";
 			["trg"] = "Player";
 		};
-		[29] = {
+		[32] = {
 			["gauge2or"] = "0";
 			["gauge3or"] = "0";
 			["gcd"] = "False";
@@ -448,7 +484,7 @@ local obj1 = {
 			["maxRange"] = 0;
 			["name"] = "Lucid Dreaming";
 			["ppowb"] = 2000;
-			["prio"] = 26;
+			["prio"] = 29;
 			["trg"] = "Player";
 		};
 	};

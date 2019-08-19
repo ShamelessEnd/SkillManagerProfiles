@@ -40,6 +40,8 @@ local obj1 = {
 		[34] = false;
 		[35] = false;
 		[36] = false;
+		[37] = false;
+		[38] = false;
 	};
 	["filters"] = {
 		[1] = "Pet Type";
@@ -50,11 +52,27 @@ local obj1 = {
 	};
 	["skills"] = {
 		[1] = {
-			["id"] = 172;
+			["combat"] = "Any";
+			["id"] = 17870;
 			["levelmin"] = 38;
 			["maxRange"] = 25;
 			["name"] = "Ruin II";
 			["prio"] = 1;
+		};
+		[2] = {
+			["combat"] = "Any";
+			["dobuff"] = true;
+			["gcd"] = "False";
+			["gcdtime"] = 0;
+			["id"] = 185;
+			["levelmin"] = 30;
+			["maxRange"] = 30;
+			["name"] = "Adloquium";
+			["prio"] = 2;
+			["secspassed"] = 3;
+			["secspassedu"] = 3;
+			["tnbuff"] = "297";
+			["tnbuffdura"] = 5;
 		};
 	};
 	["update"] = 20190307;

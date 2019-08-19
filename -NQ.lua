@@ -52,6 +52,7 @@ local obj1 = {
 	};
 	["skills"] = {
 		[1] = {
+			["craftmax"] = 2460;
 			["id"] = 100136;
 			["maxdurabmax"] = 41;
 			["maxprogrmin"] = 4500;

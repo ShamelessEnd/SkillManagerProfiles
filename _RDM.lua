@@ -495,6 +495,7 @@ local obj1 = {
 			["name"] = "Corps-a-corps";
 			["ncurrentaction"] = "7515";
 			["npskill"] = "7515";
+			["pnbuff"] = "1249";
 			["prio"] = 36;
 		};
 		[37] = {
@@ -591,6 +592,7 @@ local obj1 = {
 			["ncurrentaction"] = "7515";
 			["npskill"] = "7515";
 			["pmppb"] = 75;
+			["pnbuff"] = "1249";
 			["prio"] = 42;
 			["trg"] = "Player";
 		};

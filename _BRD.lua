@@ -143,6 +143,16 @@ local obj1 = {
 			["removebuff"] = true;
 		};
 		[8] = {
+			["gcd"] = "False";
+			["gcdtime"] = 0;
+			["id"] = 98;
+			["ignoremoving"] = true;
+			["levelmin"] = 2;
+			["maxRange"] = 25;
+			["name"] = "Straight Shot";
+			["prio"] = 34;
+		};
+		[9] = {
 			["dobuff"] = true;
 			["gcd"] = "False";
 			["gcdtime"] = 0;
@@ -156,7 +166,7 @@ local obj1 = {
 			["thpl"] = 50;
 			["tnbuff"] = "1201";
 		};
-		[9] = {
+		[10] = {
 			["dobuff"] = true;
 			["gcd"] = "False";
 			["gcdtime"] = 0;
@@ -170,7 +180,7 @@ local obj1 = {
 			["thpl"] = 50;
 			["tnbuff"] = "1200";
 		};
-		[10] = {
+		[11] = {
 			["dobuff"] = true;
 			["gcd"] = "False";
 			["gcdtime"] = 0;
@@ -184,7 +194,7 @@ local obj1 = {
 			["thpl"] = 5;
 			["tnbuff"] = "1201";
 		};
-		[11] = {
+		[12] = {
 			["dobuff"] = true;
 			["gcd"] = "False";
 			["gcdtime"] = 0;
@@ -198,7 +208,7 @@ local obj1 = {
 			["thpl"] = 5;
 			["tnbuff"] = "1200";
 		};
-		[12] = {
+		[13] = {
 			["dobuff"] = true;
 			["gcd"] = "False";
 			["gcdtime"] = 0;
@@ -212,7 +222,7 @@ local obj1 = {
 			["thpl"] = 50;
 			["tnbuff"] = "124";
 		};
-		[13] = {
+		[14] = {
 			["dobuff"] = true;
 			["gcd"] = "False";
 			["gcdtime"] = 0;
@@ -226,7 +236,7 @@ local obj1 = {
 			["thpl"] = 50;
 			["tnbuff"] = "129";
 		};
-		[14] = {
+		[15] = {
 			["dobuff"] = true;
 			["gcd"] = "False";
 			["gcdtime"] = 0;
@@ -240,7 +250,7 @@ local obj1 = {
 			["thpl"] = 5;
 			["tnbuff"] = "129";
 		};
-		[15] = {
+		[16] = {
 			["dobuff"] = true;
 			["gcd"] = "False";
 			["gcdtime"] = 0;
@@ -254,7 +264,7 @@ local obj1 = {
 			["thpl"] = 5;
 			["tnbuff"] = "124";
 		};
-		[16] = {
+		[17] = {
 			["filterone"] = "On";
 			["frontalconeaoe"] = true;
 			["gcd"] = "False";
@@ -269,7 +279,7 @@ local obj1 = {
 			["tecount"] = 2;
 			["terange"] = 12;
 		};
-		[17] = {
+		[18] = {
 			["gcd"] = "False";
 			["gcdtime"] = 0;
 			["id"] = 97;
@@ -279,7 +289,7 @@ local obj1 = {
 			["name"] = "Heavy Shot";
 			["prio"] = 17;
 		};
-		[18] = {
+		[19] = {
 			["gauge2gt"] = 3;
 			["gcd"] = "True";
 			["gcdtime"] = 0.5;
@@ -290,7 +300,7 @@ local obj1 = {
 			["name"] = "Pitch Perfect";
 			["prio"] = 18;
 		};
-		[19] = {
+		[20] = {
 			["gauge3lt"] = 3000;
 			["gcd"] = "True";
 			["gcdtime"] = 0.5;
@@ -301,7 +311,7 @@ local obj1 = {
 			["name"] = "Pitch Perfect";
 			["prio"] = 19;
 		};
-		[20] = {
+		[21] = {
 			["dobuff"] = true;
 			["gauge1or"] = "5,4";
 			["gauge3lt"] = 3000;
@@ -319,7 +329,7 @@ local obj1 = {
 			["skncdtimemin"] = 2.5;
 			["sknoffcd"] = "3559";
 		};
-		[21] = {
+		[22] = {
 			["gauge1or"] = "15,12";
 			["gauge3lt"] = 3000;
 			["gcd"] = "True";
@@ -335,7 +345,7 @@ local obj1 = {
 			["skncdtimemin"] = 2.5;
 			["sknoffcd"] = "114";
 		};
-		[22] = {
+		[23] = {
 			["dobuff"] = true;
 			["gauge1or"] = "15,12,10,8";
 			["gauge3lt"] = 3000;
@@ -353,7 +363,7 @@ local obj1 = {
 			["skncdtimemin"] = 2.5;
 			["sknoffcd"] = "3559";
 		};
-		[23] = {
+		[24] = {
 			["dobuff"] = true;
 			["gauge3lt"] = 3000;
 			["gcd"] = "True";
@@ -368,7 +378,7 @@ local obj1 = {
 			["prio"] = 23;
 			["removebuff"] = true;
 		};
-		[24] = {
+		[25] = {
 			["filterone"] = "On";
 			["gcd"] = "True";
 			["gcdtime"] = 0.5;
@@ -383,7 +393,7 @@ local obj1 = {
 			["tecount"] = 2;
 			["terange"] = 10;
 		};
-		[25] = {
+		[26] = {
 			["gcd"] = "True";
 			["gcdtime"] = 0.5;
 			["id"] = 110;
@@ -393,7 +403,7 @@ local obj1 = {
 			["name"] = "Bloodletter";
 			["prio"] = 25;
 		};
-		[26] = {
+		[27] = {
 			["gcd"] = "True";
 			["gcdtime"] = 0.5;
 			["id"] = 101;
@@ -404,7 +414,7 @@ local obj1 = {
 			["prio"] = 26;
 			["trg"] = "Player";
 		};
-		[27] = {
+		[28] = {
 			["gauge3gt"] = 3000;
 			["gcd"] = "True";
 			["gcdtime"] = 0.5;
@@ -415,7 +425,7 @@ local obj1 = {
 			["name"] = "Empyreal Arrow";
 			["prio"] = 27;
 		};
-		[28] = {
+		[29] = {
 			["gcd"] = "True";
 			["gcdtime"] = 0.5;
 			["id"] = 3562;
@@ -427,7 +437,7 @@ local obj1 = {
 			["prio"] = 28;
 			["tbuff"] = "124+129";
 		};
-		[29] = {
+		[30] = {
 			["gcd"] = "True";
 			["gcdtime"] = 0.5;
 			["id"] = 3562;
@@ -438,7 +448,7 @@ local obj1 = {
 			["prio"] = 29;
 			["tbuff"] = "1200+1201";
 		};
-		[30] = {
+		[31] = {
 			["gcd"] = "True";
 			["gcdtime"] = 0.5;
 			["id"] = 118;
@@ -451,7 +461,7 @@ local obj1 = {
 			["terange"] = 20;
 			["trg"] = "Player";
 		};
-		[31] = {
+		[32] = {
 			["gcd"] = "True";
 			["gcdtime"] = 0.5;
 			["id"] = 7541;
@@ -463,7 +473,7 @@ local obj1 = {
 			["prio"] = 31;
 			["trg"] = "Player";
 		};
-		[32] = {
+		[33] = {
 			["gcd"] = "True";
 			["gcdtime"] = 0.5;
 			["id"] = 7544;
@@ -475,7 +485,7 @@ local obj1 = {
 			["ptpb"] = 500;
 			["trg"] = "Player";
 		};
-		[33] = {
+		[34] = {
 			["combat"] = "Out of Combat";
 			["dobuff"] = true;
 			["gcd"] = "True";
