@@ -122,6 +122,7 @@ local obj1 = {
 			["levelmin"] = 70;
 			["maxRange"] = 0;
 			["name"] = "Inner Release";
+			["npgskill"] = "41";
 			["pbuff"] = "90";
 			["pbuffdura"] = 8;
 			["pnbuff"] = "1897";
@@ -226,6 +227,9 @@ local obj1 = {
 			["maxRange"] = 5;
 			["name"] = "Inner Chaos";
 			["prio"] = 14;
+			["tecenter"] = "Self";
+			["tecount2"] = 2;
+			["terange"] = 7;
 		};
 		[15] = {
 			["gcd"] = "False";
@@ -240,8 +244,7 @@ local obj1 = {
 			["prio"] = 15;
 			["tarange"] = 5;
 			["tecenter"] = "Self";
-			["tecount"] = 3;
-			["terange"] = 7;
+			["terange"] = 5;
 			["trg"] = "Player";
 		};
 		[16] = {
