@@ -347,6 +347,19 @@ local obj1 = {
 			["gcd"] = "False";
 			["gcdtime"] = 0;
 			["id"] = 16005;
+			["levelmin"] = 76;
+			["maxRange"] = 25;
+			["name"] = "Saber Dance";
+			["prio"] = 39;
+			["tarange"] = 5;
+			["tecenter"] = "Target";
+			["tecount"] = 2;
+			["terange"] = 6;
+		};
+		[23] = {
+			["gcd"] = "False";
+			["gcdtime"] = 0;
+			["id"] = 16005;
 			["ignoremoving"] = true;
 			["levelmin"] = 76;
 			["maxRange"] = 25;
@@ -355,7 +368,7 @@ local obj1 = {
 			["tarange"] = 5;
 			["terange"] = 5;
 		};
-		[23] = {
+		[24] = {
 			["gcd"] = "False";
 			["gcdtime"] = 0;
 			["id"] = 15992;
@@ -365,7 +378,7 @@ local obj1 = {
 			["name"] = "Fountainfall";
 			["prio"] = 23;
 		};
-		[24] = {
+		[25] = {
 			["gcd"] = "False";
 			["gcdtime"] = 0;
 			["id"] = 15990;
@@ -376,7 +389,7 @@ local obj1 = {
 			["pcskill"] = "15989";
 			["prio"] = 24;
 		};
-		[25] = {
+		[26] = {
 			["gcd"] = "False";
 			["gcdtime"] = 0;
 			["id"] = 15991;
@@ -386,7 +399,8 @@ local obj1 = {
 			["name"] = "Reverse Cascade";
 			["prio"] = 25;
 		};
-		[26] = {
+		[27] = {
+			["gauge2lt"] = 49;
 			["gcd"] = "False";
 			["gcdtime"] = 0;
 			["id"] = 15996;
@@ -401,7 +415,8 @@ local obj1 = {
 			["terange"] = 7;
 			["trg"] = "Player";
 		};
-		[27] = {
+		[28] = {
+			["gauge2lt"] = 49;
 			["gcd"] = "False";
 			["gcdtime"] = 0;
 			["id"] = 15994;
@@ -417,7 +432,8 @@ local obj1 = {
 			["terange"] = 7;
 			["trg"] = "Player";
 		};
-		[28] = {
+		[29] = {
+			["gauge2lt"] = 49;
 			["gcd"] = "False";
 			["gcdtime"] = 0;
 			["id"] = 15995;
@@ -432,7 +448,8 @@ local obj1 = {
 			["terange"] = 7;
 			["trg"] = "Player";
 		};
-		[29] = {
+		[30] = {
+			["gauge2lt"] = 49;
 			["gcd"] = "False";
 			["gcdtime"] = 0;
 			["id"] = 15993;
@@ -440,6 +457,7 @@ local obj1 = {
 			["levelmin"] = 15;
 			["maxRange"] = 0;
 			["name"] = "Windmill";
+			["pnbuff"] = "1815+1814";
 			["prio"] = 29;
 			["tarange"] = 5;
 			["tecenter"] = "Self";
@@ -447,7 +465,7 @@ local obj1 = {
 			["terange"] = 7;
 			["trg"] = "Player";
 		};
-		[30] = {
+		[31] = {
 			["gcd"] = "False";
 			["gcdtime"] = 0;
 			["id"] = 15989;
@@ -457,7 +475,7 @@ local obj1 = {
 			["name"] = "Cascade";
 			["prio"] = 30;
 		};
-		[31] = {
+		[32] = {
 			["gcd"] = "True";
 			["gcdtime"] = 0.80000001192093;
 			["id"] = 16013;
@@ -469,7 +487,7 @@ local obj1 = {
 			["prio"] = 31;
 			["trg"] = "Player";
 		};
-		[32] = {
+		[33] = {
 			["gcd"] = "True";
 			["gcdtime"] = 0.80000001192093;
 			["id"] = 16011;
@@ -480,7 +498,7 @@ local obj1 = {
 			["prio"] = 32;
 			["trg"] = "Player";
 		};
-		[33] = {
+		[34] = {
 			["gcd"] = "True";
 			["gcdtime"] = 0.80000001192093;
 			["id"] = 16009;
@@ -492,7 +510,7 @@ local obj1 = {
 			["tarange"] = 5;
 			["terange"] = 5;
 		};
-		[34] = {
+		[35] = {
 			["gcd"] = "True";
 			["gcdtime"] = 0.80000001192093;
 			["id"] = 16008;
@@ -507,7 +525,7 @@ local obj1 = {
 			["terange"] = 7;
 			["trg"] = "Player";
 		};
-		[35] = {
+		[36] = {
 			["gcd"] = "True";
 			["gcdtime"] = 0.80000001192093;
 			["id"] = 16007;
@@ -517,19 +535,21 @@ local obj1 = {
 			["name"] = "Fan Dance";
 			["prio"] = 35;
 		};
-		[36] = {
-			["gcd"] = "True";
-			["gcdtime"] = 0.80000001192093;
+		[37] = {
+			["combat"] = "Any";
+			["gcd"] = "False";
+			["gcdtime"] = 0;
 			["id"] = 16006;
 			["ignoremoving"] = true;
 			["levelmin"] = 60;
 			["maxRange"] = 30;
 			["name"] = "Closed Position";
+			["npc"] = true;
 			["pnbuff"] = "1823";
 			["prio"] = 36;
-			["trg"] = "Party";
+			["trg"] = "Ally";
 		};
-		[37] = {
+		[38] = {
 			["gcd"] = "True";
 			["gcdtime"] = 0.80000001192093;
 			["id"] = 16015;
@@ -543,7 +563,7 @@ local obj1 = {
 			["terange"] = 3;
 			["trg"] = "Player";
 		};
-		[38] = {
+		[39] = {
 			["gcd"] = "True";
 			["gcdtime"] = 0.80000001192093;
 			["id"] = 16012;
@@ -556,6 +576,15 @@ local obj1 = {
 			["tarange"] = 20;
 			["terange"] = 20;
 			["trg"] = "Player";
+		};
+		[40] = {
+			["id"] = 16005;
+			["levelmin"] = 76;
+			["maxRange"] = 25;
+			["name"] = "Saber Dance";
+			["prio"] = 40;
+			["tarange"] = 5;
+			["terange"] = 5;
 		};
 	};
 	["version"] = 3;

@@ -299,8 +299,6 @@ local obj1 = {
 			["levelmin"] = 68;
 			["maxRange"] = 0;
 			["name"] = "Delirium";
-			["npcskill"] = "3621,3617,3623";
-			["npgskill"] = "3621,3617,3623";
 			["prio"] = 21;
 			["trg"] = "Player";
 		};

@@ -53,7 +53,42 @@ local obj1 = {
 	["skills"] = {
 		[1] = {
 			["combat"] = "Any";
-			["gcd"] = "True";
+			["gcd"] = "False";
+			["gcdtime"] = 0;
+			["id"] = 1;
+			["maxRange"] = 3;
+			["name"] = "Away";
+			["prio"] = 34;
+			["stype"] = "Pet";
+			["tecenter"] = "Self";
+			["tecount"] = 1;
+			["tecount2"] = 1;
+			["tehpavggt"] = 80;
+			["terange"] = 30;
+			["tncontids"] = "1402";
+			["trg"] = "Pet";
+			["type"] = 11;
+		};
+		[2] = {
+			["combat"] = "Any";
+			["gcd"] = "False";
+			["gcdtime"] = 0;
+			["id"] = 1;
+			["ignoremoving"] = true;
+			["maxRange"] = 3;
+			["name"] = "Away";
+			["prio"] = 35;
+			["stype"] = "Pet";
+			["tecenter"] = "Self";
+			["tecount"] = 3;
+			["terange"] = 30;
+			["tncontids"] = "1404";
+			["trg"] = "Pet";
+			["type"] = 11;
+		};
+		[3] = {
+			["combat"] = "Any";
+			["gcd"] = "False";
 			["gcdtime"] = 0;
 			["id"] = 165;
 			["ignoremoving"] = true;
@@ -61,9 +96,28 @@ local obj1 = {
 			["maxRange"] = 0;
 			["name"] = "Summon";
 			["prio"] = 1;
+			["tecenter"] = "Self";
+			["tecount"] = 2;
+			["terange"] = 30;
 			["trg"] = "Pet";
 		};
-		[2] = {
+		[4] = {
+			["combat"] = "Any";
+			["gcd"] = "False";
+			["gcdtime"] = 0;
+			["id"] = 180;
+			["ignoremoving"] = true;
+			["levelmin"] = 30;
+			["maxRange"] = 0;
+			["name"] = "Summon III";
+			["prio"] = 33;
+			["tecenter"] = "Self";
+			["tecount"] = 1;
+			["tecount2"] = 1;
+			["terange"] = 30;
+			["trg"] = "Pet";
+		};
+		[5] = {
 			["gcd"] = "False";
 			["gcdtime"] = 0;
 			["id"] = 16515;
@@ -75,7 +129,7 @@ local obj1 = {
 			["tarange"] = 8;
 			["terange"] = 8;
 		};
-		[3] = {
+		[6] = {
 			["gcd"] = "False";
 			["gcdtime"] = 0;
 			["id"] = 16514;
@@ -85,7 +139,7 @@ local obj1 = {
 			["name"] = "Fountain of Fire";
 			["prio"] = 3;
 		};
-		[4] = {
+		[7] = {
 			["gauge3lt"] = 2000;
 			["gcd"] = "True";
 			["gcdtime"] = 0;
@@ -98,7 +152,7 @@ local obj1 = {
 			["tarange"] = 5;
 			["terange"] = 5;
 		};
-		[5] = {
+		[8] = {
 			["gcd"] = "False";
 			["gcdtime"] = 0;
 			["id"] = 16511;
@@ -113,7 +167,7 @@ local obj1 = {
 			["tecount"] = 3;
 			["terange"] = 7;
 		};
-		[6] = {
+		[9] = {
 			["gcd"] = "False";
 			["gcdtime"] = 0;
 			["id"] = 3579;
@@ -124,7 +178,7 @@ local obj1 = {
 			["prio"] = 6;
 			["skready"] = "3582";
 		};
-		[7] = {
+		[10] = {
 			["dobuff"] = true;
 			["gcd"] = "False";
 			["gcdtime"] = 0;
@@ -141,7 +195,7 @@ local obj1 = {
 			["tnbuff"] = "1215";
 			["tnbuffdura"] = 4;
 		};
-		[8] = {
+		[11] = {
 			["dobuff"] = true;
 			["gcd"] = "False";
 			["gcdtime"] = 0;
@@ -159,7 +213,7 @@ local obj1 = {
 			["tnbuff"] = "1214";
 			["tnbuffdura"] = 2;
 		};
-		[9] = {
+		[12] = {
 			["gcd"] = "False";
 			["gcdtime"] = 0;
 			["id"] = 7426;
@@ -171,7 +225,7 @@ local obj1 = {
 			["prio"] = 9;
 			["skready"] = "7429,181,16513,3581,16802,16508,7423,16797,16798,7427";
 		};
-		[10] = {
+		[13] = {
 			["gcd"] = "True";
 			["gcdtime"] = 0;
 			["id"] = 172;
@@ -182,7 +236,7 @@ local obj1 = {
 			["prio"] = 10;
 			["skready"] = "16513,3581,16802,16508,7423,16797,16798,7427";
 		};
-		[11] = {
+		[14] = {
 			["gcd"] = "True";
 			["gcdtime"] = 0;
 			["id"] = 17782;
@@ -191,7 +245,7 @@ local obj1 = {
 			["name"] = "Enkindle Phoenix";
 			["prio"] = 11;
 		};
-		[12] = {
+		[15] = {
 			["gcd"] = "True";
 			["gcdtime"] = 0;
 			["id"] = 7429;
@@ -201,7 +255,7 @@ local obj1 = {
 			["name"] = "Enkindle Bahamut";
 			["prio"] = 12;
 		};
-		[13] = {
+		[16] = {
 			["dobuff"] = true;
 			["gcd"] = "True";
 			["gcdtime"] = 0;
@@ -215,7 +269,7 @@ local obj1 = {
 			["tnbuff"] = "1214,1215";
 			["tnbuffdura"] = 3;
 		};
-		[14] = {
+		[17] = {
 			["dobuff"] = true;
 			["gcd"] = "True";
 			["gcdtime"] = 0;
@@ -227,7 +281,7 @@ local obj1 = {
 			["prio"] = 14;
 			["skoffcd"] = "3581,16513";
 		};
-		[15] = {
+		[18] = {
 			["gcd"] = "True";
 			["gcdtime"] = 0;
 			["id"] = 174;
@@ -243,7 +297,7 @@ local obj1 = {
 			["tecount"] = 2;
 			["terange"] = 10;
 		};
-		[16] = {
+		[19] = {
 			["gcd"] = "False";
 			["gcdtime"] = 0;
 			["id"] = 16511;
@@ -256,7 +310,7 @@ local obj1 = {
 			["tecount"] = 3;
 			["terange"] = 7;
 		};
-		[17] = {
+		[20] = {
 			["gcd"] = "False";
 			["gcdtime"] = 0;
 			["id"] = 163;
@@ -265,7 +319,7 @@ local obj1 = {
 			["name"] = "Ruin III";
 			["prio"] = 17;
 		};
-		[18] = {
+		[21] = {
 			["gcd"] = "False";
 			["gcdtime"] = 0;
 			["id"] = 3579;
@@ -274,7 +328,7 @@ local obj1 = {
 			["name"] = "Ruin III";
 			["prio"] = 18;
 		};
-		[19] = {
+		[22] = {
 			["gcd"] = "True";
 			["gcdtime"] = 0;
 			["id"] = 7426;
@@ -285,7 +339,7 @@ local obj1 = {
 			["pbuff"] = "1212";
 			["prio"] = 19;
 		};
-		[20] = {
+		[23] = {
 			["gcd"] = "False";
 			["gcdtime"] = 0;
 			["id"] = 172;
@@ -295,7 +349,7 @@ local obj1 = {
 			["name"] = "Ruin II";
 			["prio"] = 20;
 		};
-		[21] = {
+		[24] = {
 			["gcd"] = "True";
 			["gcdtime"] = 0.80000001192093;
 			["id"] = 7427;
@@ -306,7 +360,7 @@ local obj1 = {
 			["prio"] = 21;
 			["trg"] = "Player";
 		};
-		[22] = {
+		[25] = {
 			["gcd"] = "True";
 			["gcdtime"] = 0.80000001192093;
 			["id"] = 16513;
@@ -321,7 +375,7 @@ local obj1 = {
 			["sknoffcd"] = "3580";
 			["trg"] = "Player";
 		};
-		[23] = {
+		[26] = {
 			["gcd"] = "True";
 			["gcdtime"] = 0.80000001192093;
 			["id"] = 3581;
@@ -336,7 +390,7 @@ local obj1 = {
 			["sknoffcd"] = "3580";
 			["trg"] = "Player";
 		};
-		[24] = {
+		[27] = {
 			["gcd"] = "True";
 			["gcdtime"] = 0.80000001192093;
 			["id"] = 7423;
@@ -347,7 +401,7 @@ local obj1 = {
 			["prio"] = 24;
 			["trg"] = "Player";
 		};
-		[25] = {
+		[28] = {
 			["gcd"] = "True";
 			["gcdtime"] = 0.80000001192093;
 			["id"] = 16802;
@@ -357,7 +411,7 @@ local obj1 = {
 			["name"] = "Enkindle Garuda";
 			["prio"] = 25;
 		};
-		[26] = {
+		[29] = {
 			["gcd"] = "True";
 			["gcdtime"] = 0.80000001192093;
 			["id"] = 16797;
@@ -367,7 +421,7 @@ local obj1 = {
 			["name"] = "Egi Assault 1 Garuda";
 			["prio"] = 26;
 		};
-		[27] = {
+		[30] = {
 			["gcd"] = "True";
 			["gcdtime"] = 0.80000001192093;
 			["id"] = 3578;
@@ -381,7 +435,7 @@ local obj1 = {
 			["tecount"] = 3;
 			["terange"] = 7;
 		};
-		[28] = {
+		[31] = {
 			["gcd"] = "True";
 			["gcdtime"] = 0.80000001192093;
 			["id"] = 181;
@@ -395,7 +449,7 @@ local obj1 = {
 			["tecount2"] = 2;
 			["terange"] = 7;
 		};
-		[29] = {
+		[32] = {
 			["gcd"] = "True";
 			["gcdtime"] = 0.80000001192093;
 			["id"] = 16510;
@@ -410,7 +464,7 @@ local obj1 = {
 			["tecount"] = 3;
 			["terange"] = 7;
 		};
-		[30] = {
+		[33] = {
 			["gcd"] = "True";
 			["gcdtime"] = 0.80000001192093;
 			["id"] = 16508;
@@ -421,7 +475,7 @@ local obj1 = {
 			["pnbuff"] = "304";
 			["prio"] = 30;
 		};
-		[31] = {
+		[34] = {
 			["gcd"] = "True";
 			["gcdtime"] = 0.80000001192093;
 			["id"] = 16798;
@@ -431,7 +485,7 @@ local obj1 = {
 			["name"] = "Egi Assault II Garuda";
 			["prio"] = 31;
 		};
-		[32] = {
+		[35] = {
 			["gcd"] = "True";
 			["gcdtime"] = 0.80000001192093;
 			["id"] = 7562;

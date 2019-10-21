@@ -124,7 +124,9 @@ local obj1 = {
 			["pnbuffdura"] = 5;
 			["prio"] = 6;
 			["tarange"] = 5;
-			["terange"] = 5;
+			["tecenter"] = "Self";
+			["tecount"] = 3;
+			["terange"] = 7;
 			["trg"] = "Player";
 		};
 		[7] = {
@@ -139,7 +141,9 @@ local obj1 = {
 			["pnbuffdura"] = 5;
 			["prio"] = 7;
 			["tarange"] = 5;
-			["terange"] = 5;
+			["tecenter"] = "Self";
+			["tecount"] = 3;
+			["terange"] = 7;
 			["trg"] = "Player";
 		};
 		[8] = {
@@ -518,6 +522,7 @@ local obj1 = {
 			["levelmin"] = 70;
 			["maxRange"] = 10;
 			["name"] = "Hissatsu: Guren";
+			["pbuff"] = "1298";
 			["prio"] = 38;
 			["tarange"] = 10;
 			["tecenter"] = "Target";
@@ -589,6 +594,7 @@ local obj1 = {
 			["levelmin"] = 72;
 			["maxRange"] = 3;
 			["name"] = "Hissatsu: Senei";
+			["pbuff"] = "1298";
 			["prio"] = 42;
 		};
 		[43] = {

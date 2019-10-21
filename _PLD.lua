@@ -345,9 +345,10 @@ local obj1 = {
 			["gcdtime"] = 0.80000001192093;
 			["id"] = 16461;
 			["levelmin"] = 74;
-			["maxRange"] = 4;
+			["maxRange"] = 3;
 			["name"] = "Intervene";
 			["prio"] = 21;
+			["tncontids"] = "8201";
 		};
 		[22] = {
 			["gcd"] = "True";
