@@ -169,8 +169,9 @@ local obj1 = {
 			["maxRange"] = 12;
 			["name"] = "Dragon Sight";
 			["ncurrentaction"] = "92,95,96,16478,16480";
+			["npc"] = true;
 			["npskill"] = "92,95,96,16478,16480";
-			["prio"] = 31;
+			["prio"] = 8;
 			["trg"] = "Party";
 		};
 		[9] = {
@@ -184,7 +185,7 @@ local obj1 = {
 			["name"] = "Dragon Sight";
 			["ncurrentaction"] = "92,95,96,16478,16480";
 			["npskill"] = "92,95,96,16478,16480";
-			["prio"] = 8;
+			["prio"] = 9;
 			["trg"] = "Player";
 		};
 		[10] = {
@@ -198,7 +199,7 @@ local obj1 = {
 			["name"] = "Battle Litany";
 			["ncurrentaction"] = "92,95,96,16478,16480";
 			["npskill"] = "92,95,96,16478,16480";
-			["prio"] = 9;
+			["prio"] = 10;
 			["tarange"] = 15;
 			["terange"] = 15;
 			["trg"] = "Player";
@@ -214,7 +215,7 @@ local obj1 = {
 			["name"] = "Blood for Blood";
 			["ncurrentaction"] = "92,95,96,16478,16480";
 			["npskill"] = "92,95,96,16478,16480";
-			["prio"] = 10;
+			["prio"] = 11;
 			["trg"] = "Player";
 		};
 		[12] = {
@@ -227,7 +228,7 @@ local obj1 = {
 			["name"] = "Stardiver";
 			["ncurrentaction"] = "92,95,96,16478,16480";
 			["npskill"] = "92,95,96,16478,16480";
-			["prio"] = 11;
+			["prio"] = 12;
 			["tarange"] = 5;
 			["terange"] = 5;
 		};
@@ -243,7 +244,7 @@ local obj1 = {
 			["name"] = "Geirskogul";
 			["ncurrentaction"] = "92,95,96,16478,16480";
 			["npskill"] = "92,95,96,16478,16480";
-			["prio"] = 12;
+			["prio"] = 13;
 			["tarange"] = 15;
 			["terange"] = 15;
 		};
@@ -257,7 +258,7 @@ local obj1 = {
 			["name"] = "Mirage Dive";
 			["ncurrentaction"] = "92,95,96,16478,16480";
 			["npskill"] = "92,95,96,16478,16480";
-			["prio"] = 13;
+			["prio"] = 14;
 			["removebuff"] = true;
 		};
 		[15] = {
@@ -272,7 +273,7 @@ local obj1 = {
 			["name"] = "Jump";
 			["ncurrentaction"] = "92,95,96,16478,16480";
 			["npskill"] = "92,95,96,16478,16480";
-			["prio"] = 14;
+			["prio"] = 15;
 		};
 		[16] = {
 			["dobuff"] = true;
@@ -287,7 +288,7 @@ local obj1 = {
 			["ncurrentaction"] = "92,95,96,16478,16480";
 			["npskill"] = "92,95,96,16478,16480";
 			["pnbuff"] = "1243";
-			["prio"] = 15;
+			["prio"] = 16;
 		};
 		[17] = {
 			["charge"] = true;
@@ -302,7 +303,7 @@ local obj1 = {
 			["ncurrentaction"] = "92,95,96,16478,16480";
 			["npskill"] = "92,95,96,16478,16480";
 			["pnbuff"] = "1243";
-			["prio"] = 16;
+			["prio"] = 17;
 		};
 		[18] = {
 			["charge"] = true;
@@ -314,7 +315,7 @@ local obj1 = {
 			["name"] = "Dragonfire Dive";
 			["ncurrentaction"] = "92,95,96,16478,16480";
 			["npskill"] = "92,95,96,16478,16480";
-			["prio"] = 17;
+			["prio"] = 18;
 			["tarange"] = 5;
 			["terange"] = 5;
 		};
@@ -330,7 +331,7 @@ local obj1 = {
 			["ncurrentaction"] = "92,95,96,16478,16480";
 			["npskill"] = "92,95,96,16478,16480";
 			["pnbuff"] = "1243";
-			["prio"] = 18;
+			["prio"] = 19;
 			["tarange"] = 15;
 			["terange"] = 15;
 		};
@@ -345,7 +346,7 @@ local obj1 = {
 			["ncurrentaction"] = "92,95,96,16478,16480";
 			["npskill"] = "92,95,96,16478,16480";
 			["phpb"] = 60;
-			["prio"] = 19;
+			["prio"] = 20;
 			["trg"] = "Player";
 		};
 		[21] = {
@@ -357,7 +358,7 @@ local obj1 = {
 			["maxRange"] = 10;
 			["name"] = "Coerthan Torment";
 			["pcskill"] = "7397";
-			["prio"] = 20;
+			["prio"] = 21;
 			["tarange"] = 10;
 			["terange"] = 10;
 		};
@@ -370,7 +371,7 @@ local obj1 = {
 			["maxRange"] = 10;
 			["name"] = "Sonic Thrust";
 			["pcskill"] = "86";
-			["prio"] = 21;
+			["prio"] = 22;
 			["tarange"] = 10;
 			["terange"] = 10;
 		};
@@ -384,7 +385,7 @@ local obj1 = {
 			["name"] = "Doom Spike";
 			["pbuff"] = "1914";
 			["pbuffdura"] = 4;
-			["prio"] = 22;
+			["prio"] = 23;
 			["tarange"] = 10;
 			["tecenter"] = "Self";
 			["tecount"] = 3;
@@ -400,7 +401,7 @@ local obj1 = {
 			["maxRange"] = 0;
 			["name"] = "Fang and Claw";
 			["pbuff"] = "802";
-			["prio"] = 23;
+			["prio"] = 24;
 		};
 		[25] = {
 			["dobuff"] = true;
@@ -412,7 +413,7 @@ local obj1 = {
 			["maxRange"] = 0;
 			["name"] = "Wheeling Thrust";
 			["pbuff"] = "803";
-			["prio"] = 24;
+			["prio"] = 25;
 		};
 		[26] = {
 			["dobuff"] = true;
@@ -424,7 +425,7 @@ local obj1 = {
 			["maxRange"] = 0;
 			["name"] = "Chaos Thrust";
 			["pcskill"] = "87";
-			["prio"] = 25;
+			["prio"] = 26;
 		};
 		[27] = {
 			["gcd"] = "False";
@@ -437,7 +438,7 @@ local obj1 = {
 			["pcskill"] = "75,16479";
 			["pnbuff"] = "1914";
 			["pnbuffdura"] = 10;
-			["prio"] = 26;
+			["prio"] = 27;
 		};
 		[28] = {
 			["gcd"] = "False";
@@ -448,7 +449,7 @@ local obj1 = {
 			["maxRange"] = 0;
 			["name"] = "Full Thrust";
 			["pcskill"] = "78";
-			["prio"] = 27;
+			["prio"] = 28;
 		};
 		[29] = {
 			["gcd"] = "False";
@@ -459,7 +460,7 @@ local obj1 = {
 			["maxRange"] = 0;
 			["name"] = "Vorpal Thrust";
 			["pcskill"] = "75,16479";
-			["prio"] = 28;
+			["prio"] = 29;
 		};
 		[30] = {
 			["gcd"] = "False";
@@ -469,7 +470,7 @@ local obj1 = {
 			["levelmin"] = 1;
 			["maxRange"] = 0;
 			["name"] = "True Thrust";
-			["prio"] = 29;
+			["prio"] = 30;
 		};
 		[31] = {
 			["gauge3gt"] = 1000;
@@ -483,7 +484,7 @@ local obj1 = {
 			["npcskill"] = "75,78,87,16479";
 			["npgskill"] = "84,88";
 			["pnbuff"] = "803+802";
-			["prio"] = 30;
+			["prio"] = 31;
 			["tarange"] = 10;
 			["terange"] = 10;
 			["thpb"] = 95;

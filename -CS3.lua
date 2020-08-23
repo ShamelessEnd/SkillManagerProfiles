@@ -52,22 +52,30 @@ local obj1 = {
 	};
 	["skills"] = {
 		[1] = {
-			["id"] = 283;
-			["name"] = "Ingenuity II";
-			["playerlevelmin"] = 50;
+			["id"] = 100385;
+			["name"] = "Muscle Memory";
+			["playerlevelmin"] = 54;
 			["prio"] = 1;
-			["used"] = false;
+			["type"] = 9;
 		};
 		[2] = {
-			["id"] = 100330;
-			["name"] = "Delicate Synthesis";
+			["id"] = 19303;
+			["name"] = "Veneration";
+			["playerlevelmin"] = 15;
+			["prio"] = 2;
+		};
+		[3] = {
+			["id"] = 100409;
+			["name"] = "Groundwork";
+			["playerlevelmin"] = 72;
 			["prio"] = 3;
 			["type"] = 9;
 		};
-		[3] = {
-			["id"] = 100205;
-			["name"] = "Careful Synthesis III";
-			["prio"] = 2;
+		[4] = {
+			["id"] = 100209;
+			["name"] = "Careful Synthesis";
+			["playerlevelmin"] = 62;
+			["prio"] = 4;
 			["singleuseonly"] = false;
 			["type"] = 9;
 		};

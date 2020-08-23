@@ -62,7 +62,7 @@ local obj1 = {
 			["name"] = "Auto Crossbow";
 			["prio"] = 1;
 			["tarange"] = 12;
-			["tecount"] = 2;
+			["tecount"] = 3;
 			["terange"] = 12;
 		};
 		[2] = {
@@ -239,7 +239,7 @@ local obj1 = {
 			["npskill"] = "17209";
 			["prio"] = 14;
 			["tarange"] = 12;
-			["tecount"] = 2;
+			["tecount"] = 3;
 			["terange"] = 12;
 		};
 		[15] = {
