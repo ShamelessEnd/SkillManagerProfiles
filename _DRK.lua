@@ -293,6 +293,19 @@ local obj1 = {
 		[21] = {
 			["gcd"] = "True";
 			["gcdtime"] = 1;
+			["id"] = 25756;
+			["ignoremoving"] = true;
+			["levelmin"] = 52;
+			["maxRange"] = 0;
+			["name"] = "Salt and Darkness";
+			["prio"] = 29;
+			["tarange"] = 5;
+			["terange"] = 5;
+			["trg"] = "Player";
+		};
+		[22] = {
+			["gcd"] = "True";
+			["gcdtime"] = 1;
 			["id"] = 3639;
 			["levelmin"] = 52;
 			["maxRange"] = 0;
@@ -302,7 +315,7 @@ local obj1 = {
 			["terange"] = 5;
 			["trg"] = "Player";
 		};
-		[22] = {
+		[23] = {
 			["gcd"] = "True";
 			["gcdtime"] = 1;
 			["id"] = 25754;
@@ -314,7 +327,7 @@ local obj1 = {
 			["secspassedu"] = 10;
 			["trg"] = "Player";
 		};
-		[23] = {
+		[24] = {
 			["gcd"] = "True";
 			["gcdtime"] = 1;
 			["id"] = 7535;
@@ -327,7 +340,7 @@ local obj1 = {
 			["terange"] = 5;
 			["trg"] = "Player";
 		};
-		[24] = {
+		[25] = {
 			["gcd"] = "True";
 			["gcdtime"] = 1;
 			["id"] = 7531;
@@ -342,7 +355,7 @@ local obj1 = {
 			["prio"] = 24;
 			["trg"] = "Player";
 		};
-		[25] = {
+		[26] = {
 			["gcd"] = "True";
 			["gcdtime"] = 1;
 			["id"] = 3636;
@@ -357,7 +370,7 @@ local obj1 = {
 			["prio"] = 25;
 			["trg"] = "Player";
 		};
-		[26] = {
+		[27] = {
 			["gcd"] = "True";
 			["gcdtime"] = 1;
 			["id"] = 7548;
@@ -373,7 +386,7 @@ local obj1 = {
 			["terange"] = 6;
 			["trg"] = "Player";
 		};
-		[27] = {
+		[28] = {
 			["gcd"] = "True";
 			["gcdtime"] = 0;
 			["id"] = 3629;
@@ -385,7 +398,7 @@ local obj1 = {
 			["prio"] = 27;
 			["trg"] = "Player";
 		};
-		[28] = {
+		[29] = {
 			["gcd"] = "False";
 			["id"] = 3624;
 			["ignoremoving"] = true;
