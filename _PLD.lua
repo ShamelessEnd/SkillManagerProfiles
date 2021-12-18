@@ -244,7 +244,7 @@ local obj1 = {
 			["npskill"] = "17,30";
 			["phpb"] = 80;
 			["pnbuff"] = "74+82";
-			["prio"] = 18;
+			["prio"] = 16;
 			["trg"] = "Player";
 		};
 		[17] = {
@@ -259,7 +259,7 @@ local obj1 = {
 			["npskill"] = "7531,30";
 			["phpb"] = 60;
 			["pnbuff"] = "1191+82";
-			["prio"] = 19;
+			["prio"] = 17;
 			["trg"] = "Player";
 		};
 		[18] = {
@@ -271,7 +271,7 @@ local obj1 = {
 			["maxRange"] = 0;
 			["name"] = "Hallowed Ground";
 			["phpb"] = 15;
-			["prio"] = 20;
+			["prio"] = 18;
 			["trg"] = "Player";
 		};
 		[19] = {
@@ -282,7 +282,7 @@ local obj1 = {
 			["levelmin"] = 35;
 			["maxRange"] = 0;
 			["name"] = "Sheltron";
-			["prio"] = 16;
+			["prio"] = 19;
 			["secspassed"] = 12;
 			["trg"] = "Player";
 		};
@@ -294,7 +294,7 @@ local obj1 = {
 			["levelmin"] = 22;
 			["maxRange"] = 0;
 			["name"] = "Reprisal";
-			["prio"] = 17;
+			["prio"] = 20;
 			["tarange"] = 5;
 			["tecenter"] = "Self";
 			["tecount"] = 1;
@@ -330,6 +330,7 @@ local obj1 = {
 			["trg"] = "Player";
 		};
 		[23] = {
+			["combat"] = "Any";
 			["gcd"] = "True";
 			["gcdtime"] = 0;
 			["id"] = 28;
