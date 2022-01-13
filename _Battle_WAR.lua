@@ -61,7 +61,7 @@ local obj1 = {
 			["levelmin"] = 90;
 			["maxRange"] = 3;
 			["name"] = "Primal Rend";
-			["prio"] = 21;
+			["prio"] = 1;
 			["tarange"] = 5;
 			["terange"] = 5;
 		};
@@ -73,11 +73,11 @@ local obj1 = {
 			["maxRange"] = 0;
 			["name"] = "Decimate";
 			["pbuff"] = "2677";
-			["prio"] = 1;
+			["prio"] = 2;
 			["tarange"] = 5;
 			["tecenter"] = "Self";
 			["tecount"] = 3;
-			["terange"] = 5;
+			["terange"] = 6;
 			["trg"] = "Player";
 		};
 		[3] = {
@@ -88,9 +88,11 @@ local obj1 = {
 			["maxRange"] = 0;
 			["name"] = "Mythril Tempest";
 			["pcskill"] = "41";
-			["prio"] = 2;
+			["prio"] = 3;
 			["tarange"] = 5;
-			["terange"] = 5;
+			["tecenter"] = "Self";
+			["tecount"] = 1;
+			["terange"] = 6;
 			["trg"] = "Player";
 		};
 		[4] = {
@@ -100,11 +102,11 @@ local obj1 = {
 			["levelmin"] = 10;
 			["maxRange"] = 8;
 			["name"] = "Overpower";
-			["prio"] = 3;
+			["prio"] = 4;
 			["tarange"] = 8;
 			["tecenter"] = "Self";
 			["tecount"] = 2;
-			["terange"] = 5;
+			["terange"] = 6;
 		};
 		[5] = {
 			["gcd"] = "False";
@@ -114,7 +116,7 @@ local obj1 = {
 			["maxRange"] = 3;
 			["name"] = "Fell Cleave";
 			["pbuff"] = "2677";
-			["prio"] = 4;
+			["prio"] = 5;
 		};
 		[6] = {
 			["gcd"] = "False";
@@ -126,7 +128,7 @@ local obj1 = {
 			["pcskill"] = "37";
 			["pnbuff"] = "2677";
 			["pnbuffdura"] = 25;
-			["prio"] = 5;
+			["prio"] = 6;
 		};
 		[7] = {
 			["gcd"] = "False";
@@ -136,7 +138,7 @@ local obj1 = {
 			["maxRange"] = 3;
 			["name"] = "Storm's Path";
 			["pcskill"] = "37";
-			["prio"] = 6;
+			["prio"] = 7;
 		};
 		[8] = {
 			["gcd"] = "False";
@@ -146,7 +148,7 @@ local obj1 = {
 			["maxRange"] = 3;
 			["name"] = "Maim";
 			["pcskill"] = "31";
-			["prio"] = 7;
+			["prio"] = 8;
 		};
 		[9] = {
 			["gcd"] = "False";
@@ -155,7 +157,7 @@ local obj1 = {
 			["levelmin"] = 1;
 			["maxRange"] = 3;
 			["name"] = "Heavy Swing";
-			["prio"] = 8;
+			["prio"] = 9;
 		};
 		[10] = {
 			["gcd"] = "False";
@@ -164,7 +166,7 @@ local obj1 = {
 			["levelmin"] = 15;
 			["maxRange"] = 20;
 			["name"] = "Tomahawk";
-			["prio"] = 9;
+			["prio"] = 10;
 		};
 		[11] = {
 			["gcd"] = "True";
@@ -177,7 +179,7 @@ local obj1 = {
 			["ncurrentaction"] = "52";
 			["npskill"] = "52";
 			["pnbuff"] = "1897";
-			["prio"] = 10;
+			["prio"] = 11;
 			["trg"] = "Player";
 		};
 		[12] = {
@@ -192,7 +194,7 @@ local obj1 = {
 			["ncurrentaction"] = "7389";
 			["npskill"] = "7389";
 			["pnbuff"] = "1177+1897";
-			["prio"] = 11;
+			["prio"] = 12;
 			["sknready"] = "7389";
 			["trg"] = "Player";
 		};
@@ -204,7 +206,7 @@ local obj1 = {
 			["levelmin"] = 86;
 			["maxRange"] = 0;
 			["name"] = "Orogeny";
-			["prio"] = 23;
+			["prio"] = 13;
 			["tarange"] = 5;
 			["tecenter"] = "Self";
 			["tecount"] = 3;
@@ -220,7 +222,7 @@ local obj1 = {
 			["maxRange"] = 3;
 			["name"] = "Upheaval";
 			["pbuff"] = "2677";
-			["prio"] = 12;
+			["prio"] = 14;
 		};
 		[15] = {
 			["gcd"] = "True";
@@ -230,7 +232,7 @@ local obj1 = {
 			["maxRange"] = 3;
 			["name"] = "Onslaught";
 			["pbuff"] = "2677";
-			["prio"] = 13;
+			["prio"] = 15;
 		};
 		[16] = {
 			["gcd"] = "True";
@@ -241,7 +243,7 @@ local obj1 = {
 			["maxRange"] = 0;
 			["name"] = "Bloodwhetting";
 			["phpb"] = 90;
-			["prio"] = 14;
+			["prio"] = 16;
 			["trg"] = "Player";
 		};
 		[17] = {
@@ -253,7 +255,7 @@ local obj1 = {
 			["maxRange"] = 0;
 			["name"] = "Equilibrium";
 			["phpb"] = 80;
-			["prio"] = 15;
+			["prio"] = 17;
 			["trg"] = "Player";
 		};
 		[18] = {
@@ -265,7 +267,7 @@ local obj1 = {
 			["maxRange"] = 0;
 			["name"] = "Vengeance";
 			["phpb"] = 99;
-			["prio"] = 16;
+			["prio"] = 18;
 			["punderattack"] = true;
 			["trg"] = "Player";
 		};
@@ -278,7 +280,7 @@ local obj1 = {
 			["maxRange"] = 0;
 			["name"] = "Thrill of Battle";
 			["phpb"] = 60;
-			["prio"] = 18;
+			["prio"] = 19;
 			["trg"] = "Player";
 		};
 		[20] = {
@@ -290,7 +292,7 @@ local obj1 = {
 			["maxRange"] = 0;
 			["name"] = "Rampart";
 			["phpb"] = 70;
-			["prio"] = 19;
+			["prio"] = 20;
 			["punderattack"] = true;
 			["trg"] = "Player";
 		};
@@ -303,7 +305,7 @@ local obj1 = {
 			["maxRange"] = 0;
 			["name"] = "Reprisal";
 			["phpb"] = 99;
-			["prio"] = 17;
+			["prio"] = 21;
 			["punderattack"] = true;
 			["punderattackmelee"] = true;
 			["tarange"] = 5;
@@ -337,7 +339,7 @@ local obj1 = {
 			["maxRange"] = 0;
 			["name"] = "Defiance";
 			["pnbuff"] = "91";
-			["prio"] = 20;
+			["prio"] = 23;
 			["trg"] = "Player";
 		};
 	};
