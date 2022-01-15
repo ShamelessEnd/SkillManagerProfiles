@@ -183,6 +183,18 @@ local obj1 = {
 			["trg"] = "Player";
 		};
 		[12] = {
+			["gcd"] = "True";
+			["gcdtime"] = 1;
+			["id"] = 38;
+			["ignoremoving"] = true;
+			["levelmin"] = 6;
+			["maxRange"] = 0;
+			["name"] = "Berserk";
+			["pnbuff"] = "1897";
+			["prio"] = 24;
+			["trg"] = "Player";
+		};
+		[13] = {
 			["gauge1lt"] = 50;
 			["gcd"] = "True";
 			["gcdtime"] = 1;
@@ -198,7 +210,7 @@ local obj1 = {
 			["sknready"] = "7389";
 			["trg"] = "Player";
 		};
-		[13] = {
+		[14] = {
 			["gcd"] = "True";
 			["gcdtime"] = 1;
 			["id"] = 25752;
@@ -213,7 +225,7 @@ local obj1 = {
 			["terange"] = 6;
 			["trg"] = "Player";
 		};
-		[14] = {
+		[15] = {
 			["gcd"] = "True";
 			["gcdtime"] = 1;
 			["id"] = 7387;
@@ -224,7 +236,7 @@ local obj1 = {
 			["pbuff"] = "2677";
 			["prio"] = 14;
 		};
-		[15] = {
+		[16] = {
 			["gcd"] = "True";
 			["gcdtime"] = 1;
 			["id"] = 7386;
@@ -234,7 +246,7 @@ local obj1 = {
 			["pbuff"] = "2677";
 			["prio"] = 15;
 		};
-		[16] = {
+		[17] = {
 			["gcd"] = "True";
 			["gcdtime"] = 1;
 			["id"] = 25751;
@@ -246,7 +258,7 @@ local obj1 = {
 			["prio"] = 16;
 			["trg"] = "Player";
 		};
-		[17] = {
+		[18] = {
 			["gcd"] = "True";
 			["gcdtime"] = 1;
 			["id"] = 3552;
@@ -258,7 +270,7 @@ local obj1 = {
 			["prio"] = 17;
 			["trg"] = "Player";
 		};
-		[18] = {
+		[19] = {
 			["gcd"] = "True";
 			["gcdtime"] = 1;
 			["id"] = 44;
@@ -271,7 +283,7 @@ local obj1 = {
 			["punderattack"] = true;
 			["trg"] = "Player";
 		};
-		[19] = {
+		[20] = {
 			["gcd"] = "True";
 			["gcdtime"] = 1;
 			["id"] = 40;
@@ -283,7 +295,7 @@ local obj1 = {
 			["prio"] = 19;
 			["trg"] = "Player";
 		};
-		[20] = {
+		[21] = {
 			["gcd"] = "True";
 			["gcdtime"] = 1;
 			["id"] = 7531;
@@ -296,7 +308,7 @@ local obj1 = {
 			["punderattack"] = true;
 			["trg"] = "Player";
 		};
-		[21] = {
+		[22] = {
 			["gcd"] = "True";
 			["gcdtime"] = 1;
 			["id"] = 7535;
@@ -312,7 +324,7 @@ local obj1 = {
 			["terange"] = 5;
 			["trg"] = "Player";
 		};
-		[22] = {
+		[23] = {
 			["gcd"] = "True";
 			["gcdtime"] = 1;
 			["id"] = 7548;
@@ -329,7 +341,7 @@ local obj1 = {
 			["terange"] = 6;
 			["trg"] = "Player";
 		};
-		[23] = {
+		[24] = {
 			["combat"] = "Any";
 			["gcd"] = "False";
 			["gcdtime"] = 0;
