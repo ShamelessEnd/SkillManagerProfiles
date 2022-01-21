@@ -56,6 +56,13 @@ local obj1 = {
 	["priosystem"] = true;
 	["skills"] = {
 		[1] = {
+			["gathermax"] = true;
+			["id"] = 241;
+			["maxgatherattemptsmin"] = 6;
+			["name"] = "King's Yield II";
+			["prio"] = 2;
+		};
+		[2] = {
 			["gatheraddsbuff"] = "1286";
 			["gpnbuff"] = "1286";
 			["id"] = 273;
