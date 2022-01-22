@@ -76,7 +76,7 @@ local obj1 = {
 			["gpbuff"] = "757";
 			["id"] = 22184;
 			["name"] = "Meticulous Prospector";
-			["prio"] = 20;
+			["prio"] = 4;
 		};
 		[5] = {
 			["collraritygt"] = 562;
@@ -91,66 +91,66 @@ local obj1 = {
 			["gpbuff"] = "757";
 			["id"] = 22183;
 			["name"] = "Brazen Prospector";
-			["prio"] = 4;
+			["prio"] = 6;
 		};
 		[7] = {
-			["id"] = 26521;
-			["name"] = "Wise to the World";
-			["prio"] = 6;
-			["singleuseonly"] = false;
-		};
-		[8] = {
 			["id"] = 26521;
 			["name"] = "Wise to the World";
 			["prio"] = 7;
 			["singleuseonly"] = false;
 		};
-		[9] = {
+		[8] = {
 			["id"] = 26521;
 			["name"] = "Wise to the World";
 			["prio"] = 8;
 			["singleuseonly"] = false;
 		};
-		[10] = {
+		[9] = {
 			["id"] = 26521;
 			["name"] = "Wise to the World";
 			["prio"] = 9;
 			["singleuseonly"] = false;
 		};
-		[11] = {
+		[10] = {
 			["id"] = 26521;
 			["name"] = "Wise to the World";
 			["prio"] = 10;
 			["singleuseonly"] = false;
 		};
-		[12] = {
-			["id"] = 232;
-			["name"] = "Solid Reason";
+		[11] = {
+			["id"] = 26521;
+			["name"] = "Wise to the World";
 			["prio"] = 11;
 			["singleuseonly"] = false;
 		};
-		[13] = {
+		[12] = {
 			["id"] = 232;
 			["name"] = "Solid Reason";
 			["prio"] = 12;
 			["singleuseonly"] = false;
 		};
-		[14] = {
+		[13] = {
 			["id"] = 232;
 			["name"] = "Solid Reason";
 			["prio"] = 13;
 			["singleuseonly"] = false;
 		};
-		[15] = {
+		[14] = {
 			["id"] = 232;
 			["name"] = "Solid Reason";
 			["prio"] = 14;
 			["singleuseonly"] = false;
 		};
-		[16] = {
+		[15] = {
 			["id"] = 232;
 			["name"] = "Solid Reason";
 			["prio"] = 15;
+			["singleuseonly"] = false;
+		};
+		[16] = {
+			["id"] = 232;
+			["name"] = "Solid Reason";
+			["prio"] = 16;
 			["singleuseonly"] = false;
 		};
 		[17] = {
@@ -159,7 +159,7 @@ local obj1 = {
 			["gatherattempts"] = 1;
 			["id"] = 22184;
 			["name"] = "Meticulous Prospector";
-			["prio"] = 16;
+			["prio"] = 17;
 		};
 		[18] = {
 			["collraritygt"] = 800;
@@ -167,19 +167,19 @@ local obj1 = {
 			["gatherattempts"] = 1;
 			["id"] = 22182;
 			["name"] = "Scour";
-			["prio"] = 17;
+			["prio"] = 18;
 		};
 		[19] = {
 			["collraritylt"] = 1000;
 			["gatherattempts"] = 1;
 			["id"] = 22183;
 			["name"] = "Brazen Prospector";
-			["prio"] = 18;
+			["prio"] = 19;
 		};
 		[20] = {
 			["id"] = 240;
 			["name"] = "Collect";
-			["prio"] = 19;
+			["prio"] = 20;
 			["singleuseonly"] = false;
 		};
 	};
