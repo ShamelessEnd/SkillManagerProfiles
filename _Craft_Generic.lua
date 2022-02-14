@@ -160,29 +160,28 @@ local obj1 = {
 			["type"] = 9;
 		};
 		[14] = {
-			["condition"] = "Good";
-			["id"] = 100341;
-			["name"] = "Byregot's Blessing";
-			["playerlevelmin"] = 50;
-			["prio"] = 14;
-			["qualitymaxper"] = 100;
-			["type"] = 9;
-		};
-		[15] = {
 			["id"] = 262;
 			["iqstack"] = 1;
 			["name"] = "Great Strides";
 			["playerlevelmin"] = 21;
-			["prio"] = 15;
+			["prio"] = 14;
 			["qualitymaxper"] = 100;
 		};
-		[16] = {
+		[15] = {
 			["id"] = 100341;
 			["name"] = "Byregot's Blessing";
 			["playerlevelmin"] = 50;
-			["prio"] = 16;
+			["prio"] = 15;
 			["qualitymaxper"] = 100;
 			["type"] = 9;
+		};
+		[16] = {
+			["craftmax"] = 2600;
+			["id"] = 19301;
+			["maxprogrmin"] = 3200;
+			["name"] = "Veneration";
+			["playerlevelmin"] = 15;
+			["prio"] = 16;
 		};
 		[17] = {
 			["id"] = 100321;
@@ -191,6 +190,7 @@ local obj1 = {
 			["prio"] = 17;
 			["singleuseonly"] = false;
 			["type"] = 9;
+			["used"] = false;
 		};
 		[18] = {
 			["durabmin"] = 20;

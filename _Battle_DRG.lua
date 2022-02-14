@@ -267,7 +267,7 @@ local obj1 = {
 			["ncurrentaction"] = "92,95,96,16478,16480";
 			["npskill"] = "92,95,96,16478,16480";
 			["pnbuff"] = "1243";
-			["prio"] = 17;
+			["prio"] = 15;
 			["tarange"] = 15;
 			["terange"] = 15;
 		};
@@ -281,7 +281,7 @@ local obj1 = {
 			["name"] = "Wyrmwind Thrust";
 			["ncurrentaction"] = "92,95,96,16478,16480";
 			["npskill"] = "92,95,96,16478,16480";
-			["prio"] = 18;
+			["prio"] = 16;
 			["tarange"] = 15;
 			["terange"] = 15;
 		};
@@ -295,7 +295,7 @@ local obj1 = {
 			["ncurrentaction"] = "92,95,96,16478,16480";
 			["npskill"] = "92,95,96,16478,16480";
 			["pnbuff"] = "1243";
-			["prio"] = 15;
+			["prio"] = 17;
 		};
 		[18] = {
 			["charge"] = true;
@@ -307,7 +307,7 @@ local obj1 = {
 			["name"] = "Dragonfire Dive";
 			["ncurrentaction"] = "92,95,96,16478,16480";
 			["npskill"] = "92,95,96,16478,16480";
-			["prio"] = 16;
+			["prio"] = 18;
 			["tarange"] = 5;
 			["terange"] = 5;
 		};
@@ -428,7 +428,7 @@ local obj1 = {
 			["gcdtime"] = 0;
 			["id"] = 87;
 			["ignoremoving"] = true;
-			["levelmin"] = 38;
+			["levelmin"] = 18;
 			["maxRange"] = 0;
 			["name"] = "Disembowel";
 			["pcskill"] = "75,16479";

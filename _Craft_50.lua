@@ -56,132 +56,138 @@ local obj1 = {
 	["priosystem"] = false;
 	["skills"] = {
 		[1] = {
-			["id"] = 100385;
+			["craftmax"] = 1320;
+			["id"] = 100379;
+			["maxprogrmin"] = 500;
 			["name"] = "Muscle Memory";
 			["playerlevelmin"] = 54;
 			["prio"] = 1;
 			["type"] = 9;
 		};
 		[2] = {
-			["id"] = 19018;
-			["maxprogrmax"] = 1000;
-			["name"] = "Final Appraisal";
-			["playerlevelmin"] = 42;
+			["id"] = 100002;
+			["name"] = "Basic Touch";
+			["playerlevelmin"] = 5;
 			["prio"] = 2;
+			["type"] = 9;
 		};
 		[3] = {
-			["id"] = 100209;
-			["name"] = "Careful Synthesis";
-			["playerlevelmin"] = 62;
+			["id"] = 100004;
+			["name"] = "Standard Touch";
+			["playerlevelmin"] = 18;
 			["prio"] = 3;
 			["type"] = 9;
 		};
 		[4] = {
-			["id"] = 4580;
-			["name"] = "Manipulation";
-			["playerlevelmin"] = 65;
-			["prio"] = 4;
+			["cpmin"] = 408;
+			["id"] = 264;
+			["maxprogrmin"] = 500;
+			["name"] = "Great Strides";
+			["playerlevelmin"] = 21;
+			["prio"] = 21;
+			["qualitymaxper"] = 20;
 		};
 		[5] = {
-			["id"] = 19002;
-			["name"] = "Waste Not II";
-			["playerlevelmin"] = 47;
-			["prio"] = 5;
+			["id"] = 4631;
+			["name"] = "Waste Not";
+			["playerlevelmin"] = 15;
+			["prio"] = 4;
 		};
 		[6] = {
-			["id"] = 100134;
-			["name"] = "Precise Touch";
-			["playerlevelmin"] = 53;
-			["prio"] = 6;
-			["singleuseonly"] = false;
-			["type"] = 9;
-			["wn2stackmin"] = 1;
+			["id"] = 19004;
+			["name"] = "Innovation";
+			["playerlevelmin"] = 26;
+			["prio"] = 5;
 		};
 		[7] = {
-			["id"] = 100093;
+			["id"] = 100002;
+			["name"] = "Basic Touch";
+			["playerlevelmin"] = 5;
+			["prio"] = 6;
+			["type"] = 9;
+		};
+		[8] = {
+			["id"] = 100004;
 			["name"] = "Standard Touch";
 			["playerlevelmin"] = 18;
 			["prio"] = 7;
-			["pskillc"] = "100091";
-			["singleuseonly"] = false;
 			["type"] = 9;
-			["wn2stackmin"] = 1;
 		};
-		[8] = {
-			["id"] = 100091;
+		[9] = {
+			["id"] = 100002;
 			["name"] = "Basic Touch";
 			["playerlevelmin"] = 5;
 			["prio"] = 8;
-			["singleuseonly"] = false;
-			["type"] = 9;
-			["wn2stackmin"] = 1;
-		};
-		[9] = {
-			["cpmin"] = 156;
-			["id"] = 100233;
-			["name"] = "Prudent Touch";
-			["playerlevelmin"] = 66;
-			["prio"] = 9;
 			["type"] = 9;
 		};
 		[10] = {
-			["durabmin"] = 35;
-			["id"] = 100108;
-			["name"] = "Hasty Touch";
-			["playerlevelmin"] = 1;
-			["prio"] = 19;
+			["id"] = 100004;
+			["name"] = "Standard Touch";
+			["playerlevelmin"] = 18;
+			["prio"] = 9;
 			["type"] = 9;
 		};
 		[11] = {
-			["id"] = 266;
-			["name"] = "Great Strides";
-			["playerlevelmin"] = 21;
+			["id"] = 100003;
+			["name"] = "Master's Mend";
+			["playerlevelmin"] = 7;
 			["prio"] = 10;
-		};
-		[12] = {
-			["condition"] = "Excellent";
-			["id"] = 100345;
-			["name"] = "Byregot's Blessing";
-			["playerlevelmin"] = 50;
-			["prio"] = 11;
 			["type"] = 9;
 		};
+		[12] = {
+			["cpmin"] = 142;
+			["id"] = 264;
+			["name"] = "Great Strides";
+			["playerlevelmin"] = 21;
+			["prio"] = 20;
+			["qualitymaxper"] = 75;
+		};
 		[13] = {
-			["id"] = 19010;
+			["condition"] = "Excellent";
+			["id"] = 100339;
+			["iqstack"] = 1;
+			["name"] = "Byregot's Blessing";
+			["playerlevelmin"] = 50;
+			["prio"] = 12;
+			["qualitymaxper"] = 100;
+			["type"] = 9;
+		};
+		[14] = {
+			["id"] = 19004;
 			["iqstack"] = 1;
 			["name"] = "Innovation";
 			["playerlevelmin"] = 26;
-			["prio"] = 12;
-			["qualitymaxper"] = 100;
+			["prio"] = 11;
+			["qualitymaxper"] = 85;
 		};
-		[14] = {
-			["id"] = 100099;
+		[15] = {
+			["id"] = 100002;
 			["iqstack"] = 1;
-			["name"] = "Observe";
-			["playerlevelmin"] = 13;
+			["name"] = "Basic Touch";
+			["playerlevelmin"] = 5;
 			["prio"] = 13;
 			["qualitymaxper"] = 100;
 			["type"] = 9;
 		};
-		[15] = {
-			["id"] = 100249;
+		[16] = {
+			["id"] = 100004;
 			["iqstack"] = 1;
-			["name"] = "Focused Touch";
-			["playerlevelmin"] = 68;
+			["name"] = "Standard Touch";
+			["playerlevelmin"] = 18;
 			["prio"] = 14;
 			["qualitymaxper"] = 100;
 			["type"] = 9;
 		};
-		[16] = {
-			["id"] = 266;
+		[17] = {
+			["id"] = 260;
 			["iqstack"] = 1;
 			["name"] = "Great Strides";
 			["playerlevelmin"] = 21;
 			["prio"] = 15;
 			["qualitymaxper"] = 100;
 		};
-		[17] = {
-			["id"] = 100345;
+		[18] = {
+			["id"] = 100339;
 			["iqstack"] = 1;
 			["name"] = "Byregot's Blessing";
 			["playerlevelmin"] = 50;
@@ -189,23 +195,32 @@ local obj1 = {
 			["qualitymaxper"] = 100;
 			["type"] = 9;
 		};
-		[18] = {
-			["id"] = 100209;
+		[19] = {
+			["craftmax"] = 800;
+			["id"] = 19297;
+			["maxprogrmin"] = 500;
+			["name"] = "Veneration";
+			["playerlevelmin"] = 15;
+			["prio"] = 17;
+		};
+		[20] = {
+			["id"] = 100203;
 			["name"] = "Careful Synthesis";
 			["playerlevelmin"] = 62;
-			["prio"] = 17;
-			["singleuseonly"] = false;
-			["type"] = 9;
-		};
-		[19] = {
-			["id"] = 100090;
-			["name"] = "Basic Synthesis";
-			["playerlevelmin"] = 1;
 			["prio"] = 18;
 			["singleuseonly"] = false;
 			["type"] = 9;
 		};
+		[21] = {
+			["id"] = 100001;
+			["name"] = "Basic Synthesis";
+			["playerlevelmin"] = 1;
+			["prio"] = 19;
+			["singleuseonly"] = false;
+			["type"] = 9;
+		};
 	};
+	["update"] = 20191030;
 	["version"] = 3;
 }
 return obj1

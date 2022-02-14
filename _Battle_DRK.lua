@@ -56,6 +56,19 @@ local obj1 = {
 	["priosystem"] = false;
 	["skills"] = {
 		[1] = {
+			["id"] = 7391;
+			["levelmax"] = 79;
+			["levelmin"] = 64;
+			["maxRange"] = 0;
+			["name"] = "Quietus";
+			["prio"] = 33;
+			["tarange"] = 5;
+			["tecenter"] = "Self";
+			["tecount"] = 3;
+			["terange"] = 5;
+			["trg"] = "Player";
+		};
+		[2] = {
 			["gcd"] = "False";
 			["id"] = 7391;
 			["ignoremoving"] = true;
@@ -70,7 +83,7 @@ local obj1 = {
 			["terange"] = 5;
 			["trg"] = "Player";
 		};
-		[2] = {
+		[3] = {
 			["gauge1gt"] = 80;
 			["gcd"] = "False";
 			["id"] = 7391;
@@ -85,7 +98,7 @@ local obj1 = {
 			["terange"] = 5;
 			["trg"] = "Player";
 		};
-		[3] = {
+		[4] = {
 			["gcd"] = "False";
 			["id"] = 7391;
 			["ignoremoving"] = true;
@@ -101,7 +114,7 @@ local obj1 = {
 			["terange"] = 5;
 			["trg"] = "Player";
 		};
-		[4] = {
+		[5] = {
 			["gcd"] = "False";
 			["id"] = 16468;
 			["ignoremoving"] = true;
@@ -114,7 +127,7 @@ local obj1 = {
 			["terange"] = 5;
 			["trg"] = "Player";
 		};
-		[5] = {
+		[6] = {
 			["gcd"] = "False";
 			["id"] = 3621;
 			["ignoremoving"] = true;
@@ -125,10 +138,20 @@ local obj1 = {
 			["tarange"] = 5;
 			["tecenter"] = "Self";
 			["tecount"] = 3;
-			["terange"] = 8;
+			["terange"] = 5;
 			["trg"] = "Player";
 		};
-		[6] = {
+		[7] = {
+			["gcd"] = "False";
+			["id"] = 7392;
+			["ignoremoving"] = true;
+			["levelmax"] = 79;
+			["levelmin"] = 62;
+			["maxRange"] = 3;
+			["name"] = "Bloodspiller";
+			["prio"] = 32;
+		};
+		[8] = {
 			["gcd"] = "False";
 			["id"] = 7392;
 			["ignoremoving"] = true;
@@ -138,7 +161,7 @@ local obj1 = {
 			["pbuff"] = "1972";
 			["prio"] = 6;
 		};
-		[7] = {
+		[9] = {
 			["gauge1gt"] = 80;
 			["gcd"] = "False";
 			["id"] = 7392;
@@ -148,7 +171,7 @@ local obj1 = {
 			["name"] = "Bloodspiller";
 			["prio"] = 7;
 		};
-		[8] = {
+		[10] = {
 			["gcd"] = "False";
 			["id"] = 7392;
 			["ignoremoving"] = true;
@@ -159,7 +182,7 @@ local obj1 = {
 			["skncdtimemin"] = 15;
 			["sknoffcd"] = "16472";
 		};
-		[9] = {
+		[11] = {
 			["gcd"] = "False";
 			["id"] = 3632;
 			["ignoremoving"] = true;
@@ -169,7 +192,7 @@ local obj1 = {
 			["pcskill"] = "3623";
 			["prio"] = 9;
 		};
-		[10] = {
+		[12] = {
 			["gcd"] = "False";
 			["id"] = 3623;
 			["ignoremoving"] = true;
@@ -179,7 +202,7 @@ local obj1 = {
 			["pcskill"] = "3617";
 			["prio"] = 10;
 		};
-		[11] = {
+		[13] = {
 			["gcd"] = "False";
 			["id"] = 3617;
 			["ignoremoving"] = true;
@@ -188,7 +211,7 @@ local obj1 = {
 			["name"] = "Hard Slash";
 			["prio"] = 11;
 		};
-		[12] = {
+		[14] = {
 			["gcd"] = "True";
 			["gcdtime"] = 0.5;
 			["id"] = 16472;
@@ -199,7 +222,7 @@ local obj1 = {
 			["prio"] = 12;
 			["trg"] = "Player";
 		};
-		[13] = {
+		[15] = {
 			["gcd"] = "True";
 			["gcdtime"] = 0.5;
 			["id"] = 7390;
@@ -210,7 +233,7 @@ local obj1 = {
 			["prio"] = 13;
 			["trg"] = "Player";
 		};
-		[14] = {
+		[16] = {
 			["gcd"] = "True";
 			["gcdtime"] = 1;
 			["id"] = 3625;
@@ -221,7 +244,7 @@ local obj1 = {
 			["prio"] = 14;
 			["trg"] = "Player";
 		};
-		[15] = {
+		[17] = {
 			["gcd"] = "True";
 			["gcdtime"] = 1;
 			["id"] = 16469;
@@ -235,7 +258,7 @@ local obj1 = {
 			["tecount"] = 3;
 			["terange"] = 5;
 		};
-		[16] = {
+		[18] = {
 			["gcd"] = "True";
 			["gcdtime"] = 1;
 			["id"] = 16466;
@@ -249,7 +272,7 @@ local obj1 = {
 			["tecount"] = 3;
 			["terange"] = 5;
 		};
-		[17] = {
+		[19] = {
 			["gcd"] = "True";
 			["gcdtime"] = 1;
 			["id"] = 16470;
@@ -259,7 +282,7 @@ local obj1 = {
 			["name"] = "Edge of Shadow";
 			["prio"] = 17;
 		};
-		[18] = {
+		[20] = {
 			["gcd"] = "True";
 			["gcdtime"] = 1;
 			["id"] = 16467;
@@ -269,7 +292,7 @@ local obj1 = {
 			["name"] = "Edge of Darkness";
 			["prio"] = 18;
 		};
-		[19] = {
+		[21] = {
 			["gcd"] = "True";
 			["gcdtime"] = 1;
 			["id"] = 3641;
@@ -283,7 +306,7 @@ local obj1 = {
 			["tecount"] = 3;
 			["terange"] = 5;
 		};
-		[20] = {
+		[22] = {
 			["gcd"] = "True";
 			["gcdtime"] = 1;
 			["id"] = 3643;
@@ -293,7 +316,7 @@ local obj1 = {
 			["name"] = "Carve and Spit";
 			["prio"] = 20;
 		};
-		[21] = {
+		[23] = {
 			["gcd"] = "True";
 			["gcdtime"] = 1;
 			["id"] = 25757;
@@ -305,7 +328,7 @@ local obj1 = {
 			["tarange"] = 10;
 			["terange"] = 10;
 		};
-		[22] = {
+		[24] = {
 			["gcd"] = "True";
 			["gcdtime"] = 1;
 			["id"] = 25756;
@@ -319,7 +342,7 @@ local obj1 = {
 			["trg"] = "Player";
 			["used"] = false;
 		};
-		[23] = {
+		[25] = {
 			["gcd"] = "True";
 			["gcdtime"] = 1;
 			["id"] = 3639;
@@ -331,7 +354,7 @@ local obj1 = {
 			["terange"] = 5;
 			["trg"] = "Player";
 		};
-		[24] = {
+		[26] = {
 			["gcd"] = "True";
 			["gcdtime"] = 1;
 			["id"] = 3640;
@@ -340,7 +363,7 @@ local obj1 = {
 			["name"] = "Plunge";
 			["prio"] = 24;
 		};
-		[25] = {
+		[27] = {
 			["gcd"] = "True";
 			["gcdtime"] = 1;
 			["id"] = 25754;
@@ -352,7 +375,7 @@ local obj1 = {
 			["secspassedu"] = 10;
 			["trg"] = "Player";
 		};
-		[26] = {
+		[28] = {
 			["gcd"] = "True";
 			["gcdtime"] = 1;
 			["id"] = 7535;
@@ -365,7 +388,7 @@ local obj1 = {
 			["terange"] = 5;
 			["trg"] = "Player";
 		};
-		[27] = {
+		[29] = {
 			["gcd"] = "True";
 			["gcdtime"] = 1;
 			["id"] = 7531;
@@ -380,7 +403,7 @@ local obj1 = {
 			["prio"] = 27;
 			["trg"] = "Player";
 		};
-		[28] = {
+		[30] = {
 			["gcd"] = "True";
 			["gcdtime"] = 1;
 			["id"] = 3636;
@@ -395,7 +418,7 @@ local obj1 = {
 			["prio"] = 28;
 			["trg"] = "Player";
 		};
-		[29] = {
+		[31] = {
 			["gcd"] = "True";
 			["gcdtime"] = 1;
 			["id"] = 7548;
@@ -411,7 +434,7 @@ local obj1 = {
 			["terange"] = 6;
 			["trg"] = "Player";
 		};
-		[30] = {
+		[32] = {
 			["gcd"] = "True";
 			["gcdtime"] = 0;
 			["id"] = 3629;
@@ -423,12 +446,13 @@ local obj1 = {
 			["prio"] = 30;
 			["trg"] = "Player";
 		};
-		[31] = {
+		[33] = {
 			["gcd"] = "False";
 			["id"] = 3624;
 			["ignoremoving"] = true;
 			["levelmin"] = 15;
 			["maxRange"] = 20;
+			["minRange"] = 3;
 			["name"] = "Unmend";
 			["prio"] = 31;
 		};
