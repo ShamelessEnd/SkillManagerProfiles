@@ -71,35 +71,43 @@ local obj1 = {
 			["prio"] = 2;
 		};
 		[3] = {
-			["id"] = 100321;
-			["name"] = "Intensive Synthesis";
-			["playerlevelmin"] = 78;
-			["prio"] = 3;
-			["singleuseonly"] = false;
-			["type"] = 9;
+			["id"] = 4633;
+			["maxprogrmin"] = 3000;
+			["name"] = "Waste Not";
+			["playerlevelmin"] = 15;
+			["prio"] = 6;
 		};
 		[4] = {
 			["durabmin"] = 20;
 			["id"] = 100409;
 			["name"] = "Groundwork";
 			["playerlevelmin"] = 72;
-			["prio"] = 4;
+			["prio"] = 3;
 			["singleuseonly"] = false;
 			["type"] = 9;
 		};
 		[5] = {
+			["durabmin"] = 10;
+			["id"] = 100405;
+			["name"] = "Groundwork";
+			["playerlevelmin"] = 72;
+			["prio"] = 7;
+			["type"] = 9;
+			["wnstackmin"] = 1;
+		};
+		[6] = {
 			["id"] = 100209;
 			["name"] = "Careful Synthesis";
 			["playerlevelmin"] = 62;
-			["prio"] = 5;
+			["prio"] = 4;
 			["singleuseonly"] = false;
 			["type"] = 9;
 		};
-		[6] = {
+		[7] = {
 			["id"] = 100090;
 			["name"] = "Basic Synthesis";
 			["playerlevelmin"] = 1;
-			["prio"] = 6;
+			["prio"] = 5;
 			["singleuseonly"] = false;
 			["type"] = 9;
 		};
