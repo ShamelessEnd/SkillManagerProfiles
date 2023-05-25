@@ -75,14 +75,14 @@ local obj1 = {
 			["maxprogrmin"] = 3000;
 			["name"] = "Waste Not";
 			["playerlevelmin"] = 15;
-			["prio"] = 6;
+			["prio"] = 3;
 		};
 		[4] = {
 			["durabmin"] = 20;
 			["id"] = 100409;
 			["name"] = "Groundwork";
 			["playerlevelmin"] = 72;
-			["prio"] = 3;
+			["prio"] = 4;
 			["singleuseonly"] = false;
 			["type"] = 9;
 		};
@@ -91,7 +91,7 @@ local obj1 = {
 			["id"] = 100405;
 			["name"] = "Groundwork";
 			["playerlevelmin"] = 72;
-			["prio"] = 7;
+			["prio"] = 5;
 			["type"] = 9;
 			["wnstackmin"] = 1;
 		};
@@ -99,7 +99,7 @@ local obj1 = {
 			["id"] = 100209;
 			["name"] = "Careful Synthesis";
 			["playerlevelmin"] = 62;
-			["prio"] = 4;
+			["prio"] = 6;
 			["singleuseonly"] = false;
 			["type"] = 9;
 		};
@@ -107,7 +107,7 @@ local obj1 = {
 			["id"] = 100090;
 			["name"] = "Basic Synthesis";
 			["playerlevelmin"] = 1;
-			["prio"] = 5;
+			["prio"] = 7;
 			["singleuseonly"] = false;
 			["type"] = 9;
 		};

@@ -105,8 +105,9 @@ local obj1 = {
 			["prio"] = 4;
 			["tarange"] = 8;
 			["tecenter"] = "Self";
-			["tecount"] = 2;
+			["tecount"] = 3;
 			["terange"] = 6;
+			["trg"] = "Player";
 		};
 		[5] = {
 			["gcd"] = "False";
@@ -176,9 +177,6 @@ local obj1 = {
 			["levelmin"] = 70;
 			["maxRange"] = 0;
 			["name"] = "Inner Release";
-			["ncurrentaction"] = "52";
-			["npskill"] = "52";
-			["pnbuff"] = "1897";
 			["prio"] = 11;
 			["trg"] = "Player";
 		};
@@ -191,7 +189,7 @@ local obj1 = {
 			["maxRange"] = 0;
 			["name"] = "Berserk";
 			["pnbuff"] = "1897";
-			["prio"] = 24;
+			["prio"] = 12;
 			["trg"] = "Player";
 		};
 		[13] = {
@@ -206,7 +204,7 @@ local obj1 = {
 			["ncurrentaction"] = "7389";
 			["npskill"] = "7389";
 			["pnbuff"] = "1177+1897";
-			["prio"] = 12;
+			["prio"] = 13;
 			["sknready"] = "7389";
 			["trg"] = "Player";
 		};
@@ -218,7 +216,7 @@ local obj1 = {
 			["levelmin"] = 86;
 			["maxRange"] = 0;
 			["name"] = "Orogeny";
-			["prio"] = 13;
+			["prio"] = 14;
 			["tarange"] = 5;
 			["tecenter"] = "Self";
 			["tecount"] = 3;
@@ -234,7 +232,7 @@ local obj1 = {
 			["maxRange"] = 3;
 			["name"] = "Upheaval";
 			["pbuff"] = "2677";
-			["prio"] = 14;
+			["prio"] = 15;
 		};
 		[16] = {
 			["gcd"] = "True";
@@ -244,7 +242,7 @@ local obj1 = {
 			["maxRange"] = 3;
 			["name"] = "Onslaught";
 			["pbuff"] = "2677";
-			["prio"] = 15;
+			["prio"] = 16;
 		};
 		[17] = {
 			["gcd"] = "True";
@@ -255,7 +253,7 @@ local obj1 = {
 			["maxRange"] = 0;
 			["name"] = "Bloodwhetting";
 			["phpb"] = 90;
-			["prio"] = 16;
+			["prio"] = 17;
 			["trg"] = "Player";
 		};
 		[18] = {
@@ -267,7 +265,7 @@ local obj1 = {
 			["maxRange"] = 0;
 			["name"] = "Equilibrium";
 			["phpb"] = 80;
-			["prio"] = 17;
+			["prio"] = 18;
 			["trg"] = "Player";
 		};
 		[19] = {
@@ -279,7 +277,7 @@ local obj1 = {
 			["maxRange"] = 0;
 			["name"] = "Vengeance";
 			["phpb"] = 99;
-			["prio"] = 18;
+			["prio"] = 19;
 			["punderattack"] = true;
 			["trg"] = "Player";
 		};
@@ -292,7 +290,7 @@ local obj1 = {
 			["maxRange"] = 0;
 			["name"] = "Thrill of Battle";
 			["phpb"] = 60;
-			["prio"] = 19;
+			["prio"] = 20;
 			["trg"] = "Player";
 		};
 		[21] = {
@@ -304,7 +302,7 @@ local obj1 = {
 			["maxRange"] = 0;
 			["name"] = "Rampart";
 			["phpb"] = 70;
-			["prio"] = 20;
+			["prio"] = 21;
 			["punderattack"] = true;
 			["trg"] = "Player";
 		};
@@ -317,7 +315,7 @@ local obj1 = {
 			["maxRange"] = 0;
 			["name"] = "Reprisal";
 			["phpb"] = 99;
-			["prio"] = 21;
+			["prio"] = 22;
 			["punderattack"] = true;
 			["punderattackmelee"] = true;
 			["tarange"] = 5;
@@ -333,7 +331,7 @@ local obj1 = {
 			["maxRange"] = 0;
 			["name"] = "Arm's Length";
 			["phpb"] = 99;
-			["prio"] = 22;
+			["prio"] = 23;
 			["punderattack"] = true;
 			["punderattackmelee"] = true;
 			["tecenter"] = "Self";
@@ -351,7 +349,7 @@ local obj1 = {
 			["maxRange"] = 0;
 			["name"] = "Defiance";
 			["pnbuff"] = "91";
-			["prio"] = 23;
+			["prio"] = 24;
 			["trg"] = "Player";
 		};
 	};

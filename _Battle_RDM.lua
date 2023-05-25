@@ -575,8 +575,8 @@ local obj1 = {
 			["prio"] = 40;
 		};
 		[41] = {
-			["gauge1lt"] = 40;
-			["gauge2lt"] = 40;
+			["gauge1lt"] = 50;
+			["gauge2lt"] = 50;
 			["gcd"] = "True";
 			["gcdtime"] = 1;
 			["id"] = 7521;
@@ -655,7 +655,7 @@ local obj1 = {
 			["gcdtime"] = 1;
 			["id"] = 7506;
 			["levelmin"] = 6;
-			["maxRange"] = 3;
+			["maxRange"] = 25;
 			["name"] = "Corps-a-corps";
 			["ncurrentaction"] = "7515";
 			["npskill"] = "7515";
@@ -671,6 +671,7 @@ local obj1 = {
 			["levelmin"] = 40;
 			["maxRange"] = 3;
 			["name"] = "Engagement";
+			["pnbuff"] = "1249";
 			["prio"] = 47;
 		};
 		[48] = {

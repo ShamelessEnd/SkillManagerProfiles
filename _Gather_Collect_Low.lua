@@ -52,45 +52,62 @@ local obj1 = {
 		[4] = "";
 		[5] = "";
 	};
-	["mingp"] = 0;
+	["mingp"] = 500;
 	["priosystem"] = true;
 	["skills"] = {
 		[1] = {
-			["gathermax"] = true;
-			["id"] = 25590;
-			["name"] = "Pioneer's Gift II";
+			["id"] = 237;
+			["itemchancemax"] = 90;
+			["name"] = "Sharp Vision II";
 			["prio"] = 1;
 		};
 		[2] = {
-			["id"] = 25589;
-			["name"] = "Mountaineer's Gift II";
-			["prio"] = 5;
-		};
-		[3] = {
-			["gathermax"] = true;
-			["id"] = 21204;
-			["name"] = "Nophica's Tidings";
+			["id"] = 22185;
+			["name"] = "Scrutiny";
 			["prio"] = 2;
 		};
-		[4] = {
-			["id"] = 21203;
-			["name"] = "Nald'thal's Tidings";
-			["prio"] = 6;
-		};
-		[5] = {
-			["gathermax"] = true;
-			["id"] = 224;
-			["name"] = "Blessed Harvest II";
+		[3] = {
+			["id"] = 22182;
+			["name"] = "Scour";
 			["prio"] = 3;
 		};
-		[6] = {
-			["gathermax"] = true;
-			["id"] = 273;
-			["name"] = "Bountiful Harvest II";
+		[4] = {
+			["id"] = 22185;
+			["name"] = "Scrutiny";
 			["prio"] = 4;
 		};
+		[5] = {
+			["id"] = 22182;
+			["name"] = "Scour";
+			["prio"] = 5;
+		};
+		[6] = {
+			["collraritylt"] = 600;
+			["gpstart"] = 700;
+			["id"] = 22185;
+			["name"] = "Scrutiny";
+			["prio"] = 6;
+		};
+		[7] = {
+			["collraritylt"] = 600;
+			["id"] = 22182;
+			["name"] = "Scour";
+			["prio"] = 7;
+		};
+		[8] = {
+			["collraritylt"] = 600;
+			["id"] = 22182;
+			["name"] = "Scour";
+			["prio"] = 8;
+			["singleuseonly"] = false;
+		};
+		[9] = {
+			["id"] = 815;
+			["name"] = "Collect";
+			["prio"] = 9;
+			["singleuseonly"] = false;
+		};
 	};
-	["update"] = 20191030;
 	["version"] = 3;
 }
 return obj1
