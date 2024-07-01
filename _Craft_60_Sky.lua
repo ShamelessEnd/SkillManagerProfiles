@@ -63,106 +63,112 @@ local obj1 = {
 			["type"] = 9;
 		};
 		[2] = {
-			["id"] = 4581;
-			["name"] = "Manipulation";
-			["playerlevelmin"] = 65;
+			["durabmin"] = 25;
+			["id"] = 100135;
+			["name"] = "Precise Touch";
+			["playerlevelmin"] = 53;
 			["prio"] = 2;
+			["qualitymaxper"] = 100;
+			["singleuseonly"] = false;
+			["type"] = 9;
 		};
 		[3] = {
-			["id"] = 19304;
-			["name"] = "Veneration";
-			["playerlevelmin"] = 15;
+			["durabmin"] = 30;
+			["id"] = 100109;
+			["name"] = "Standard Touch";
+			["playerlevelmin"] = 18;
 			["prio"] = 3;
+			["pskillc"] = "100002,100016,100031,100076,100046,100061,100091,100106";
+			["qualitymaxper"] = 100;
+			["singleuseonly"] = false;
+			["type"] = 9;
 		};
 		[4] = {
+			["id"] = 19012;
+			["name"] = "Final Appraisal";
+			["playerlevelmin"] = 42;
+			["prio"] = 14;
+		};
+		[5] = {
 			["id"] = 19003;
 			["name"] = "Waste Not II";
 			["playerlevelmin"] = 47;
 			["prio"] = 4;
 		};
-		[5] = {
-			["id"] = 100410;
-			["name"] = "Groundwork";
-			["playerlevelmin"] = 72;
+		[6] = {
+			["id"] = 100105;
+			["name"] = "Basic Synthesis";
+			["playerlevelmin"] = 1;
 			["prio"] = 5;
 			["type"] = 9;
 		};
-		[6] = {
-			["id"] = 100410;
-			["name"] = "Groundwork";
-			["playerlevelmin"] = 72;
+		[7] = {
+			["durabmax"] = 35;
+			["id"] = 100107;
+			["name"] = "Master's Mend";
+			["playerlevelmin"] = 7;
 			["prio"] = 6;
 			["type"] = 9;
 		};
-		[7] = {
-			["id"] = 100330;
-			["name"] = "Delicate Synthesis";
-			["playerlevelmin"] = 76;
-			["prio"] = 7;
-			["type"] = 9;
-		};
 		[8] = {
-			["id"] = 100306;
-			["name"] = "Preparatory Touch";
-			["playerlevelmin"] = 71;
-			["prio"] = 8;
-			["type"] = 9;
-		};
-		[9] = {
-			["id"] = 100306;
-			["name"] = "Preparatory Touch";
-			["playerlevelmin"] = 71;
-			["prio"] = 9;
-			["type"] = 9;
-		};
-		[10] = {
+			["durabmax"] = 35;
+			["durabmin"] = 15;
 			["id"] = 19011;
 			["name"] = "Innovation";
 			["playerlevelmin"] = 26;
-			["prio"] = 10;
+			["prio"] = 7;
+			["qualitymaxper"] = 100;
 		};
-		[11] = {
-			["id"] = 100306;
-			["name"] = "Preparatory Touch";
-			["playerlevelmin"] = 71;
-			["prio"] = 11;
+		[9] = {
+			["durabmin"] = 25;
+			["id"] = 100106;
+			["name"] = "Basic Touch";
+			["playerlevelmin"] = 5;
+			["prio"] = 8;
+			["singleuseonly"] = false;
 			["type"] = 9;
 		};
+		[10] = {
+			["condition"] = "Excellent";
+			["durabmin"] = 15;
+			["id"] = 100346;
+			["name"] = "Byregot's Blessing";
+			["playerlevelmin"] = 50;
+			["prio"] = 9;
+			["qualitymaxper"] = 100;
+			["type"] = 9;
+		};
+		[11] = {
+			["durabmin"] = 15;
+			["id"] = 267;
+			["name"] = "Great Strides";
+			["playerlevelmin"] = 21;
+			["prio"] = 10;
+			["qualitymaxper"] = 100;
+		};
 		[12] = {
-			["id"] = 100306;
-			["name"] = "Preparatory Touch";
-			["playerlevelmin"] = 71;
-			["prio"] = 12;
+			["durabmin"] = 15;
+			["id"] = 100346;
+			["name"] = "Byregot's Blessing";
+			["playerlevelmin"] = 50;
+			["prio"] = 11;
+			["qualitymaxper"] = 100;
 			["type"] = 9;
 		};
 		[13] = {
-			["condition"] = "Excellent";
-			["id"] = 100346;
-			["name"] = "Byregot's Blessing";
-			["playerlevelmin"] = 50;
-			["prio"] = 13;
+			["id"] = 100210;
+			["name"] = "Careful Synthesis";
+			["playerlevelmin"] = 62;
+			["prio"] = 12;
+			["singleuseonly"] = false;
 			["type"] = 9;
 		};
 		[14] = {
-			["id"] = 267;
-			["iqstack"] = 1;
-			["name"] = "Great Strides";
-			["playerlevelmin"] = 21;
-			["prio"] = 14;
-		};
-		[15] = {
-			["id"] = 100346;
-			["iqstack"] = 1;
-			["name"] = "Byregot's Blessing";
-			["playerlevelmin"] = 50;
-			["prio"] = 15;
-			["type"] = 9;
-		};
-		[16] = {
-			["id"] = 100410;
-			["name"] = "Groundwork";
-			["playerlevelmin"] = 72;
-			["prio"] = 16;
+			["id"] = 100105;
+			["name"] = "Basic Synthesis";
+			["playerlevelmin"] = 1;
+			["prio"] = 13;
+			["singleuseonly"] = false;
 			["type"] = 9;
 		};
 	};

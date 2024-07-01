@@ -56,9 +56,9 @@ local obj1 = {
 	["priosystem"] = false;
 	["skills"] = {
 		[1] = {
-			["id"] = 100393;
-			["name"] = "Reflect";
-			["playerlevelmin"] = 69;
+			["id"] = 100385;
+			["name"] = "Muscle Memory";
+			["playerlevelmin"] = 54;
 			["prio"] = 1;
 			["type"] = 9;
 		};
@@ -75,9 +75,9 @@ local obj1 = {
 			["prio"] = 3;
 		};
 		[4] = {
-			["id"] = 4637;
-			["name"] = "Waste Not";
-			["playerlevelmin"] = 15;
+			["id"] = 19002;
+			["name"] = "Waste Not II";
+			["playerlevelmin"] = 47;
 			["prio"] = 4;
 		};
 		[5] = {
@@ -88,16 +88,18 @@ local obj1 = {
 			["type"] = 9;
 		};
 		[6] = {
-			["id"] = 100409;
-			["name"] = "Groundwork";
-			["playerlevelmin"] = 72;
+			["condition"] = "Excellent";
+			["id"] = 100329;
+			["name"] = "Delicate Synthesis";
+			["playerlevelmin"] = 76;
 			["prio"] = 6;
+			["stepmax"] = 7;
 			["type"] = 9;
 		};
 		[7] = {
-			["id"] = 100209;
-			["name"] = "Careful Synthesis";
-			["playerlevelmin"] = 62;
+			["id"] = 100409;
+			["name"] = "Groundwork";
+			["playerlevelmin"] = 72;
 			["prio"] = 7;
 			["type"] = 9;
 		};
@@ -106,27 +108,31 @@ local obj1 = {
 			["name"] = "Delicate Synthesis";
 			["playerlevelmin"] = 76;
 			["prio"] = 8;
+			["stepmax"] = 8;
 			["type"] = 9;
 		};
 		[9] = {
-			["id"] = 100233;
-			["name"] = "Prudent Touch";
-			["playerlevelmin"] = 66;
+			["id"] = 100305;
+			["name"] = "Preparatory Touch";
+			["playerlevelmin"] = 71;
 			["prio"] = 9;
 			["type"] = 9;
 		};
 		[10] = {
-			["id"] = 100233;
-			["name"] = "Prudent Touch";
-			["playerlevelmin"] = 66;
+			["id"] = 100305;
+			["name"] = "Preparatory Touch";
+			["playerlevelmin"] = 71;
 			["prio"] = 10;
 			["type"] = 9;
 		};
 		[11] = {
-			["id"] = 4580;
-			["name"] = "Manipulation";
-			["playerlevelmin"] = 65;
+			["condition"] = "Excellent";
+			["id"] = 100305;
+			["name"] = "Preparatory Touch";
+			["playerlevelmin"] = 71;
 			["prio"] = 11;
+			["stepmax"] = 11;
+			["type"] = 9;
 		};
 		[12] = {
 			["id"] = 19010;
@@ -135,75 +141,64 @@ local obj1 = {
 			["prio"] = 12;
 		};
 		[13] = {
-			["id"] = 100091;
-			["name"] = "Basic Touch";
-			["playerlevelmin"] = 5;
+			["id"] = 100305;
+			["name"] = "Preparatory Touch";
+			["playerlevelmin"] = 71;
 			["prio"] = 13;
+			["stepmax"] = 12;
 			["type"] = 9;
 		};
 		[14] = {
-			["id"] = 100093;
-			["name"] = "Standard Touch";
-			["playerlevelmin"] = 18;
+			["id"] = 100305;
+			["name"] = "Preparatory Touch";
+			["playerlevelmin"] = 71;
 			["prio"] = 14;
+			["qualitymaxper"] = 100;
 			["type"] = 9;
 		};
 		[15] = {
-			["id"] = 100417;
-			["name"] = "Advanced Touch";
-			["playerlevelmin"] = 84;
+			["condition"] = "Excellent";
+			["id"] = 100345;
+			["name"] = "Byregot's Blessing";
+			["playerlevelmin"] = 50;
 			["prio"] = 15;
+			["qualitymaxper"] = 100;
 			["type"] = 9;
 		};
 		[16] = {
-			["id"] = 19010;
-			["name"] = "Innovation";
-			["playerlevelmin"] = 26;
+			["id"] = 266;
+			["iqstack"] = 1;
+			["name"] = "Great Strides";
+			["playerlevelmin"] = 21;
 			["prio"] = 16;
+			["qualitymaxper"] = 100;
 		};
 		[17] = {
-			["id"] = 100091;
-			["name"] = "Basic Touch";
-			["playerlevelmin"] = 5;
+			["id"] = 100345;
+			["name"] = "Byregot's Blessing";
+			["playerlevelmin"] = 50;
 			["prio"] = 17;
+			["qualitymaxper"] = 100;
 			["type"] = 9;
 		};
 		[18] = {
-			["id"] = 100093;
-			["name"] = "Standard Touch";
-			["playerlevelmin"] = 18;
+			["id"] = 19303;
+			["name"] = "Veneration";
+			["playerlevelmin"] = 15;
 			["prio"] = 18;
-			["type"] = 9;
 		};
 		[19] = {
-			["condition"] = "Excellent";
-			["id"] = 100442;
-			["innostackmin"] = 2;
-			["name"] = "Trained Finesse";
-			["playerlevelmin"] = 90;
+			["id"] = 100409;
+			["name"] = "Groundwork";
+			["playerlevelmin"] = 72;
 			["prio"] = 19;
 			["type"] = 9;
 		};
 		[20] = {
-			["cpmin"] = 63;
-			["id"] = 266;
-			["innostackmin"] = 2;
-			["name"] = "Great Strides";
-			["playerlevelmin"] = 21;
-			["prio"] = 20;
-		};
-		[21] = {
-			["id"] = 100345;
-			["name"] = "Byregot's Blessing";
-			["playerlevelmin"] = 50;
-			["prio"] = 21;
-			["type"] = 9;
-		};
-		[22] = {
 			["id"] = 100209;
 			["name"] = "Careful Synthesis";
 			["playerlevelmin"] = 62;
-			["prio"] = 22;
+			["prio"] = 20;
 			["type"] = 9;
 		};
 	};
