@@ -44,6 +44,8 @@ local obj1 = {
 		[38] = false;
 		[39] = false;
 		[40] = false;
+		[41] = false;
+		[42] = false;
 	};
 	["filters"] = {
 		[1] = "Stance off (Sheild)";
@@ -253,6 +255,24 @@ local obj1 = {
 		};
 		[16] = {
 			["gcd"] = "False";
+			["id"] = 36919;
+			["ignoremoving"] = true;
+			["levelmin"] = 76;
+			["maxRange"] = 3;
+			["name"] = "Sepulchre";
+			["prio"] = 38;
+		};
+		[17] = {
+			["gcd"] = "False";
+			["id"] = 36918;
+			["ignoremoving"] = true;
+			["levelmin"] = 76;
+			["maxRange"] = 3;
+			["name"] = "Supplication";
+			["prio"] = 37;
+		};
+		[18] = {
+			["gcd"] = "False";
 			["id"] = 16460;
 			["ignoremoving"] = true;
 			["levelmin"] = 76;
@@ -260,7 +280,7 @@ local obj1 = {
 			["name"] = "Atonement";
 			["prio"] = 16;
 		};
-		[17] = {
+		[19] = {
 			["gcd"] = "False";
 			["id"] = 21;
 			["ignoremoving"] = true;
@@ -270,7 +290,7 @@ local obj1 = {
 			["pcskill"] = "15";
 			["prio"] = 17;
 		};
-		[18] = {
+		[20] = {
 			["gcd"] = "False";
 			["id"] = 3539;
 			["ignoremoving"] = true;
@@ -280,7 +300,7 @@ local obj1 = {
 			["pcskill"] = "15";
 			["prio"] = 18;
 		};
-		[19] = {
+		[21] = {
 			["gcd"] = "False";
 			["id"] = 15;
 			["ignoremoving"] = true;
@@ -290,7 +310,7 @@ local obj1 = {
 			["pcskill"] = "9";
 			["prio"] = 19;
 		};
-		[20] = {
+		[22] = {
 			["gcd"] = "False";
 			["id"] = 9;
 			["ignoremoving"] = true;
@@ -299,7 +319,7 @@ local obj1 = {
 			["name"] = "Fast Blade";
 			["prio"] = 20;
 		};
-		[21] = {
+		[23] = {
 			["gcd"] = "True";
 			["gcdtime"] = 1;
 			["id"] = 20;
@@ -312,7 +332,7 @@ local obj1 = {
 			["sknoffcd"] = "7383";
 			["trg"] = "Player";
 		};
-		[22] = {
+		[24] = {
 			["gcd"] = "True";
 			["gcdtime"] = 1;
 			["id"] = 7383;
@@ -323,7 +343,7 @@ local obj1 = {
 			["pbuff"] = "76";
 			["prio"] = 22;
 		};
-		[23] = {
+		[25] = {
 			["gcd"] = "True";
 			["gcdtime"] = 1;
 			["id"] = 23;
@@ -338,7 +358,7 @@ local obj1 = {
 			["terange"] = 5;
 			["trg"] = "Player";
 		};
-		[24] = {
+		[26] = {
 			["gcd"] = "True";
 			["gcdtime"] = 1;
 			["id"] = 25747;
@@ -350,7 +370,7 @@ local obj1 = {
 			["tarange"] = 5;
 			["terange"] = 5;
 		};
-		[25] = {
+		[27] = {
 			["gcd"] = "True";
 			["gcdtime"] = 1;
 			["id"] = 29;
@@ -360,7 +380,7 @@ local obj1 = {
 			["name"] = "Spirits Within";
 			["prio"] = 25;
 		};
-		[26] = {
+		[28] = {
 			["gcd"] = "True";
 			["gcdtime"] = 1;
 			["id"] = 16461;
@@ -369,7 +389,7 @@ local obj1 = {
 			["name"] = "Intervene";
 			["prio"] = 26;
 		};
-		[27] = {
+		[29] = {
 			["gcd"] = "True";
 			["gcdtime"] = 1;
 			["id"] = 7531;
@@ -384,7 +404,7 @@ local obj1 = {
 			["prio"] = 27;
 			["trg"] = "Player";
 		};
-		[28] = {
+		[30] = {
 			["gcd"] = "True";
 			["gcdtime"] = 1;
 			["id"] = 17;
@@ -399,7 +419,7 @@ local obj1 = {
 			["prio"] = 28;
 			["trg"] = "Player";
 		};
-		[29] = {
+		[31] = {
 			["gcd"] = "True";
 			["gcdtime"] = 0;
 			["id"] = 30;
@@ -411,7 +431,7 @@ local obj1 = {
 			["prio"] = 29;
 			["trg"] = "Player";
 		};
-		[30] = {
+		[32] = {
 			["gcd"] = "True";
 			["gcdtime"] = 1;
 			["id"] = 3542;
@@ -423,7 +443,7 @@ local obj1 = {
 			["secspassed"] = 12;
 			["trg"] = "Player";
 		};
-		[31] = {
+		[33] = {
 			["gcd"] = "True";
 			["gcdtime"] = 1;
 			["id"] = 25746;
@@ -435,7 +455,7 @@ local obj1 = {
 			["prio"] = 31;
 			["trg"] = "Player";
 		};
-		[32] = {
+		[34] = {
 			["gcd"] = "True";
 			["gcdtime"] = 1;
 			["id"] = 7535;
@@ -450,7 +470,7 @@ local obj1 = {
 			["terange"] = 5;
 			["trg"] = "Player";
 		};
-		[33] = {
+		[35] = {
 			["gcd"] = "True";
 			["gcdtime"] = 1;
 			["id"] = 7548;
@@ -466,7 +486,7 @@ local obj1 = {
 			["terange"] = 8;
 			["trg"] = "Player";
 		};
-		[34] = {
+		[36] = {
 			["gcd"] = "True";
 			["gcdtime"] = 1;
 			["id"] = 3540;
@@ -481,7 +501,7 @@ local obj1 = {
 			["terange"] = 15;
 			["trg"] = "Player";
 		};
-		[35] = {
+		[37] = {
 			["combat"] = "Any";
 			["gcd"] = "True";
 			["gcdtime"] = 0;
@@ -494,7 +514,7 @@ local obj1 = {
 			["prio"] = 35;
 			["trg"] = "Player";
 		};
-		[36] = {
+		[38] = {
 			["gcd"] = "False";
 			["id"] = 24;
 			["ignoremoving"] = true;
