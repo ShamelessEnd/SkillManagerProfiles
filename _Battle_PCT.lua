@@ -92,6 +92,30 @@ local obj1 = {
 		};
 		[4] = {
 			["gcd"] = "False";
+			["id"] = 34669;
+			["levelmin"] = 70;
+			["maxRange"] = 0;
+			["name"] = "Starry Sky Motif";
+			["pnbuff"] = "3685+3680+3689";
+			["prio"] = 14;
+			["skncdtimemax"] = 20;
+			["sknoffcd"] = "34675";
+			["trg"] = "Player";
+		};
+		[5] = {
+			["gcd"] = "False";
+			["id"] = 34668;
+			["levelmin"] = 50;
+			["maxRange"] = 0;
+			["name"] = "Hammer Motif";
+			["pnbuff"] = "3685+3680+3689";
+			["prio"] = 13;
+			["skncdtimemax"] = 15;
+			["sknoffcd"] = "34674";
+			["trg"] = "Player";
+		};
+		[6] = {
+			["gcd"] = "False";
 			["id"] = 34661;
 			["levelmin"] = 60;
 			["maxRange"] = 25;
@@ -102,7 +126,7 @@ local obj1 = {
 			["tecount"] = 3;
 			["terange"] = 6;
 		};
-		[5] = {
+		[7] = {
 			["gcd"] = "False";
 			["id"] = 34655;
 			["levelmin"] = 60;
@@ -110,7 +134,7 @@ local obj1 = {
 			["name"] = "Thunder in Magenta";
 			["prio"] = 5;
 		};
-		[6] = {
+		[8] = {
 			["gcd"] = "False";
 			["id"] = 34660;
 			["levelmin"] = 60;
@@ -122,7 +146,7 @@ local obj1 = {
 			["tecount"] = 3;
 			["terange"] = 6;
 		};
-		[7] = {
+		[9] = {
 			["gcd"] = "False";
 			["id"] = 34654;
 			["levelmin"] = 60;
@@ -130,7 +154,7 @@ local obj1 = {
 			["name"] = "Stone in Yellow";
 			["prio"] = 7;
 		};
-		[8] = {
+		[10] = {
 			["gcd"] = "False";
 			["id"] = 34659;
 			["levelmin"] = 60;
@@ -142,7 +166,7 @@ local obj1 = {
 			["tecount"] = 3;
 			["terange"] = 6;
 		};
-		[9] = {
+		[11] = {
 			["gcd"] = "False";
 			["id"] = 34653;
 			["levelmin"] = 60;
@@ -150,7 +174,27 @@ local obj1 = {
 			["name"] = "Blizzard in Cyan";
 			["prio"] = 9;
 		};
-		[10] = {
+		[12] = {
+			["gcd"] = "False";
+			["id"] = 34664;
+			["levelmin"] = 30;
+			["maxRange"] = 0;
+			["name"] = "Pom Motif";
+			["pnbuff"] = "3685+3680+3689+3674";
+			["prio"] = 11;
+			["trg"] = "Player";
+		};
+		[13] = {
+			["gcd"] = "False";
+			["id"] = 34665;
+			["levelmin"] = 30;
+			["maxRange"] = 0;
+			["name"] = "Wing Motif";
+			["pnbuff"] = "3685+3680+3689+3674";
+			["prio"] = 12;
+			["trg"] = "Player";
+		};
+		[14] = {
 			["gcd"] = "False";
 			["id"] = 34681;
 			["ignoremoving"] = true;
@@ -161,7 +205,7 @@ local obj1 = {
 			["tarange"] = 5;
 			["terange"] = 5;
 		};
-		[11] = {
+		[15] = {
 			["gcd"] = "False";
 			["id"] = 34663;
 			["ignoremoving"] = true;
@@ -172,7 +216,7 @@ local obj1 = {
 			["tarange"] = 5;
 			["terange"] = 5;
 		};
-		[12] = {
+		[16] = {
 			["gcd"] = "False";
 			["id"] = 34662;
 			["ignoremoving"] = true;
@@ -182,52 +226,6 @@ local obj1 = {
 			["prio"] = 10;
 			["tarange"] = 5;
 			["terange"] = 5;
-		};
-		[13] = {
-			["gcd"] = "False";
-			["id"] = 34669;
-			["levelmin"] = 70;
-			["maxRange"] = 0;
-			["name"] = "Starry Sky Motif";
-			["pnbuff"] = "3685+3674+3680";
-			["prio"] = 14;
-			["skncdtimemax"] = 20;
-			["sknoffcd"] = "34675";
-			["trg"] = "Player";
-		};
-		[14] = {
-			["gcd"] = "False";
-			["id"] = 34668;
-			["levelmin"] = 50;
-			["maxRange"] = 0;
-			["name"] = "Hammer Motif";
-			["pnbuff"] = "3685+3674+3680";
-			["prio"] = 13;
-			["skncdtimemax"] = 15;
-			["sknoffcd"] = "34674";
-			["trg"] = "Player";
-		};
-		[15] = {
-			["gauge2or"] = "0";
-			["gcd"] = "False";
-			["id"] = 34664;
-			["levelmin"] = 30;
-			["maxRange"] = 0;
-			["name"] = "Pom Motif";
-			["pnbuff"] = "3685+3674+3680+3675+3676";
-			["prio"] = 11;
-			["trg"] = "Player";
-		};
-		[16] = {
-			["gauge2or"] = "0";
-			["gcd"] = "False";
-			["id"] = 34665;
-			["levelmin"] = 30;
-			["maxRange"] = 0;
-			["name"] = "Wing Motif";
-			["pnbuff"] = "3685+3674+3680+3675+3676";
-			["prio"] = 12;
-			["trg"] = "Player";
 		};
 		[17] = {
 			["gcd"] = "False";
