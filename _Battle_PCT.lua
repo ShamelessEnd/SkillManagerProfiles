@@ -152,6 +152,28 @@ local obj1 = {
 		};
 		[10] = {
 			["gcd"] = "False";
+			["id"] = 34681;
+			["ignoremoving"] = true;
+			["levelmin"] = 100;
+			["maxRange"] = 25;
+			["name"] = "Star Prism";
+			["prio"] = 34;
+			["tarange"] = 5;
+			["terange"] = 5;
+		};
+		[11] = {
+			["gcd"] = "False";
+			["id"] = 34663;
+			["ignoremoving"] = true;
+			["levelmin"] = 90;
+			["maxRange"] = 25;
+			["name"] = "Comet in Black";
+			["prio"] = 33;
+			["tarange"] = 5;
+			["terange"] = 5;
+		};
+		[12] = {
+			["gcd"] = "False";
 			["id"] = 34662;
 			["ignoremoving"] = true;
 			["levelmin"] = 80;
@@ -161,7 +183,7 @@ local obj1 = {
 			["tarange"] = 5;
 			["terange"] = 5;
 		};
-		[11] = {
+		[13] = {
 			["gcd"] = "False";
 			["id"] = 34669;
 			["levelmin"] = 70;
@@ -173,7 +195,7 @@ local obj1 = {
 			["sknoffcd"] = "34675";
 			["trg"] = "Player";
 		};
-		[12] = {
+		[14] = {
 			["gcd"] = "False";
 			["id"] = 34668;
 			["levelmin"] = 50;
@@ -185,7 +207,7 @@ local obj1 = {
 			["sknoffcd"] = "34674";
 			["trg"] = "Player";
 		};
-		[13] = {
+		[15] = {
 			["gauge2or"] = "0";
 			["gcd"] = "False";
 			["id"] = 34664;
@@ -196,7 +218,7 @@ local obj1 = {
 			["prio"] = 11;
 			["trg"] = "Player";
 		};
-		[14] = {
+		[16] = {
 			["gauge2or"] = "0";
 			["gcd"] = "False";
 			["id"] = 34665;
@@ -207,7 +229,7 @@ local obj1 = {
 			["prio"] = 12;
 			["trg"] = "Player";
 		};
-		[15] = {
+		[17] = {
 			["gcd"] = "False";
 			["id"] = 34658;
 			["levelmin"] = 25;
@@ -219,7 +241,7 @@ local obj1 = {
 			["tecount"] = 3;
 			["terange"] = 6;
 		};
-		[16] = {
+		[18] = {
 			["gcd"] = "False";
 			["id"] = 34652;
 			["levelmin"] = 1;
@@ -227,7 +249,7 @@ local obj1 = {
 			["name"] = "Water in Blue";
 			["prio"] = 16;
 		};
-		[17] = {
+		[19] = {
 			["gcd"] = "False";
 			["id"] = 34657;
 			["levelmin"] = 25;
@@ -239,7 +261,7 @@ local obj1 = {
 			["tecount"] = 3;
 			["terange"] = 6;
 		};
-		[18] = {
+		[20] = {
 			["gcd"] = "False";
 			["id"] = 34651;
 			["levelmin"] = 1;
@@ -247,7 +269,7 @@ local obj1 = {
 			["name"] = "Aero in Green";
 			["prio"] = 18;
 		};
-		[19] = {
+		[21] = {
 			["gcd"] = "False";
 			["id"] = 34656;
 			["levelmin"] = 25;
@@ -259,7 +281,7 @@ local obj1 = {
 			["tecount"] = 3;
 			["terange"] = 6;
 		};
-		[20] = {
+		[22] = {
 			["gcd"] = "False";
 			["id"] = 34650;
 			["levelmin"] = 1;
@@ -267,7 +289,7 @@ local obj1 = {
 			["name"] = "Fire in Red";
 			["prio"] = 20;
 		};
-		[21] = {
+		[23] = {
 			["gcd"] = "True";
 			["gcdtimelt"] = 2;
 			["id"] = 34674;
@@ -277,7 +299,7 @@ local obj1 = {
 			["prio"] = 21;
 			["trg"] = "Player";
 		};
-		[22] = {
+		[24] = {
 			["gcd"] = "True";
 			["gcdtimelt"] = 2;
 			["id"] = 34675;
@@ -289,7 +311,7 @@ local obj1 = {
 			["terange"] = 30;
 			["trg"] = "Player";
 		};
-		[23] = {
+		[25] = {
 			["gcd"] = "True";
 			["gcdtimelt"] = 2;
 			["id"] = 34670;
@@ -300,7 +322,7 @@ local obj1 = {
 			["tarange"] = 5;
 			["terange"] = 5;
 		};
-		[24] = {
+		[26] = {
 			["gcd"] = "True";
 			["gcdtimelt"] = 2;
 			["id"] = 34671;
@@ -311,7 +333,7 @@ local obj1 = {
 			["tarange"] = 5;
 			["terange"] = 5;
 		};
-		[25] = {
+		[27] = {
 			["gcd"] = "True";
 			["gcdtimelt"] = 2;
 			["id"] = 34683;
@@ -323,7 +345,7 @@ local obj1 = {
 			["sknoffcd"] = "34675";
 			["trg"] = "Player";
 		};
-		[26] = {
+		[28] = {
 			["gcd"] = "True";
 			["gcdtimelt"] = 2;
 			["id"] = 34676;
@@ -334,7 +356,7 @@ local obj1 = {
 			["tarange"] = 25;
 			["terange"] = 25;
 		};
-		[27] = {
+		[29] = {
 			["gcd"] = "True";
 			["gcdtimelt"] = 2;
 			["id"] = 7562;
@@ -344,7 +366,7 @@ local obj1 = {
 			["prio"] = 27;
 			["trg"] = "Player";
 		};
-		[28] = {
+		[30] = {
 			["combat"] = "Out of Combat";
 			["gcd"] = "False";
 			["id"] = 34664;
@@ -355,7 +377,7 @@ local obj1 = {
 			["prio"] = 28;
 			["trg"] = "Player";
 		};
-		[29] = {
+		[31] = {
 			["combat"] = "Out of Combat";
 			["gcd"] = "False";
 			["id"] = 34665;
@@ -366,7 +388,7 @@ local obj1 = {
 			["prio"] = 29;
 			["trg"] = "Player";
 		};
-		[30] = {
+		[32] = {
 			["combat"] = "Out of Combat";
 			["gcd"] = "False";
 			["id"] = 34668;
@@ -377,7 +399,7 @@ local obj1 = {
 			["prio"] = 30;
 			["trg"] = "Player";
 		};
-		[31] = {
+		[33] = {
 			["combat"] = "Out of Combat";
 			["gcd"] = "False";
 			["id"] = 34669;
@@ -388,7 +410,7 @@ local obj1 = {
 			["prio"] = 31;
 			["trg"] = "Player";
 		};
-		[32] = {
+		[34] = {
 			["gcd"] = "True";
 			["gcdtimelt"] = 2;
 			["id"] = 34685;
