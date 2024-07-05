@@ -110,8 +110,7 @@ local obj1 = {
 			["name"] = "Hammer Motif";
 			["pnbuff"] = "3685+3680+3689";
 			["prio"] = 13;
-			["skncdtimemax"] = 15;
-			["sknoffcd"] = "34674";
+			["secspassed"] = 20;
 			["trg"] = "Player";
 		};
 		[6] = {
