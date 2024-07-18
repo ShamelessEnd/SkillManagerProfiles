@@ -85,6 +85,20 @@ local obj1 = {
 			["trg"] = "Player";
 		};
 		[3] = {
+			["chainend"] = true;
+			["chainname"] = "Shield";
+			["gcd"] = "False";
+			["id"] = 37034;
+			["ignoremoving"] = true;
+			["levelmin"] = 10;
+			["maxRange"] = 0;
+			["name"] = "[Shield] Prognosis";
+			["prio"] = 35;
+			["tarange"] = 15;
+			["terange"] = 15;
+			["trg"] = "Player";
+		};
+		[4] = {
 			["chainname"] = "Shield";
 			["chainstart"] = true;
 			["gcd"] = "False";
@@ -98,7 +112,7 @@ local obj1 = {
 			["prio"] = 3;
 			["trg"] = "Player";
 		};
-		[4] = {
+		[5] = {
 			["chainend"] = true;
 			["chainname"] = "AoeDot";
 			["gcd"] = "False";
@@ -112,7 +126,7 @@ local obj1 = {
 			["terange"] = 5;
 			["trg"] = "Player";
 		};
-		[5] = {
+		[6] = {
 			["chainname"] = "AoeDot";
 			["chainstart"] = true;
 			["gcd"] = "False";
@@ -129,7 +143,7 @@ local obj1 = {
 			["tnbuffdura"] = 2;
 			["trg"] = "Player";
 		};
-		[6] = {
+		[7] = {
 			["chainend"] = true;
 			["chainname"] = "Dot";
 			["gcd"] = "False";
@@ -140,7 +154,7 @@ local obj1 = {
 			["name"] = "[Dot] Dosis III";
 			["prio"] = 6;
 		};
-		[7] = {
+		[8] = {
 			["chainname"] = "Dot";
 			["chainstart"] = true;
 			["gcd"] = "False";
@@ -155,7 +169,7 @@ local obj1 = {
 			["tnbuffdura"] = 2;
 			["trg"] = "Player";
 		};
-		[8] = {
+		[9] = {
 			["gcd"] = "False";
 			["id"] = 24318;
 			["levelmin"] = 90;
@@ -166,20 +180,20 @@ local obj1 = {
 			["tarange"] = 25;
 			["terange"] = 25;
 		};
-		[9] = {
+		[10] = {
 			["gcd"] = "False";
 			["id"] = 24286;
 			["levelmin"] = 10;
 			["maxRange"] = 0;
 			["name"] = "Prognosis";
-			["npgskill"] = "24292";
+			["npgskill"] = "24292,24290";
 			["phpb"] = 75;
 			["prio"] = 9;
 			["tarange"] = 15;
 			["terange"] = 15;
 			["trg"] = "Player";
 		};
-		[10] = {
+		[11] = {
 			["gcd"] = "False";
 			["id"] = 24287;
 			["levelmin"] = 12;
@@ -189,7 +203,7 @@ local obj1 = {
 			["prio"] = 10;
 			["trg"] = "Dead Party";
 		};
-		[11] = {
+		[12] = {
 			["gcd"] = "False";
 			["id"] = 24313;
 			["ignoremoving"] = true;
@@ -200,7 +214,7 @@ local obj1 = {
 			["tarange"] = 5;
 			["terange"] = 5;
 		};
-		[12] = {
+		[13] = {
 			["gcd"] = "False";
 			["id"] = 24316;
 			["ignoremoving"] = true;
@@ -213,7 +227,7 @@ local obj1 = {
 			["tecount"] = 2;
 			["terange"] = 5;
 		};
-		[13] = {
+		[14] = {
 			["gcd"] = "False";
 			["id"] = 24318;
 			["levelmin"] = 90;
@@ -225,7 +239,7 @@ local obj1 = {
 			["tecount"] = 2;
 			["terange"] = 5;
 		};
-		[14] = {
+		[15] = {
 			["gcd"] = "False";
 			["id"] = 24315;
 			["ignoremoving"] = true;
@@ -239,14 +253,14 @@ local obj1 = {
 			["terange"] = 5;
 			["trg"] = "Player";
 		};
-		[15] = {
+		[16] = {
 			["id"] = 24306;
 			["levelmin"] = 72;
 			["maxRange"] = 25;
 			["name"] = "Dosis II";
 			["prio"] = 15;
 		};
-		[16] = {
+		[17] = {
 			["gcd"] = "False";
 			["id"] = 24312;
 			["levelmin"] = 82;
@@ -254,7 +268,7 @@ local obj1 = {
 			["name"] = "Dosis III";
 			["prio"] = 16;
 		};
-		[17] = {
+		[18] = {
 			["gcd"] = "False";
 			["id"] = 24316;
 			["ignoremoving"] = true;
@@ -265,7 +279,7 @@ local obj1 = {
 			["tarange"] = 5;
 			["terange"] = 5;
 		};
-		[18] = {
+		[19] = {
 			["id"] = 24303;
 			["levelmin"] = 62;
 			["maxRange"] = 30;
@@ -275,7 +289,7 @@ local obj1 = {
 			["thpb"] = 50;
 			["trg"] = "Party";
 		};
-		[19] = {
+		[20] = {
 			["gcd"] = "True";
 			["id"] = 24296;
 			["ignoremoving"] = true;
@@ -287,7 +301,7 @@ local obj1 = {
 			["thpb"] = 33;
 			["trg"] = "PartyS";
 		};
-		[20] = {
+		[21] = {
 			["gcd"] = "True";
 			["id"] = 24299;
 			["ignoremoving"] = true;
@@ -300,7 +314,7 @@ local obj1 = {
 			["terange"] = 15;
 			["trg"] = "Player";
 		};
-		[21] = {
+		[22] = {
 			["gauge2or"] = "3";
 			["gcd"] = "True";
 			["id"] = 24299;
@@ -313,7 +327,7 @@ local obj1 = {
 			["terange"] = 15;
 			["trg"] = "Player";
 		};
-		[22] = {
+		[23] = {
 			["gcd"] = "True";
 			["id"] = 24298;
 			["ignoremoving"] = true;
@@ -325,7 +339,7 @@ local obj1 = {
 			["terange"] = 30;
 			["trg"] = "Player";
 		};
-		[23] = {
+		[24] = {
 			["gcd"] = "True";
 			["id"] = 24302;
 			["ignoremoving"] = true;
@@ -340,7 +354,7 @@ local obj1 = {
 			["terange"] = 30;
 			["trg"] = "Player";
 		};
-		[24] = {
+		[25] = {
 			["gcd"] = "True";
 			["id"] = 24310;
 			["ignoremoving"] = true;
@@ -354,7 +368,7 @@ local obj1 = {
 			["terange"] = 30;
 			["trg"] = "Player";
 		};
-		[25] = {
+		[26] = {
 			["gcd"] = "True";
 			["id"] = 24311;
 			["ignoremoving"] = true;
@@ -369,7 +383,7 @@ local obj1 = {
 			["terange"] = 30;
 			["trg"] = "Player";
 		};
-		[26] = {
+		[27] = {
 			["gcd"] = "True";
 			["id"] = 24294;
 			["ignoremoving"] = true;
@@ -379,7 +393,7 @@ local obj1 = {
 			["prio"] = 26;
 			["trg"] = "Player";
 		};
-		[27] = {
+		[28] = {
 			["gcd"] = "True";
 			["id"] = 24300;
 			["ignoremoving"] = true;
@@ -391,13 +405,14 @@ local obj1 = {
 			["prio"] = 27;
 			["trg"] = "Player";
 		};
-		[28] = {
+		[29] = {
 			["gcd"] = "True";
 			["id"] = 24301;
 			["ignoremoving"] = true;
 			["levelmin"] = 58;
 			["maxRange"] = 0;
 			["name"] = "Pepsis";
+			["npgskill"] = "24292,24290";
 			["pbuff"] = "2609";
 			["phpb"] = 85;
 			["prio"] = 28;
@@ -405,7 +420,7 @@ local obj1 = {
 			["terange"] = 15;
 			["trg"] = "Player";
 		};
-		[29] = {
+		[30] = {
 			["gcd"] = "True";
 			["id"] = 24309;
 			["ignoremoving"] = true;
@@ -415,7 +430,7 @@ local obj1 = {
 			["prio"] = 29;
 			["trg"] = "Player";
 		};
-		[30] = {
+		[31] = {
 			["gcd"] = "True";
 			["id"] = 24305;
 			["ignoremoving"] = true;
@@ -426,7 +441,7 @@ local obj1 = {
 			["prio"] = 30;
 			["trg"] = "Party";
 		};
-		[31] = {
+		[32] = {
 			["gcd"] = "True";
 			["id"] = 24317;
 			["ignoremoving"] = true;
@@ -440,7 +455,7 @@ local obj1 = {
 			["sknoffcd"] = "24305";
 			["trg"] = "Party";
 		};
-		[32] = {
+		[33] = {
 			["gcd"] = "True";
 			["id"] = 37033;
 			["ignoremoving"] = true;
@@ -451,7 +466,7 @@ local obj1 = {
 			["tarange"] = 5;
 			["terange"] = 5;
 		};
-		[33] = {
+		[34] = {
 			["gcd"] = "True";
 			["id"] = 37035;
 			["ignoremoving"] = true;
@@ -463,7 +478,7 @@ local obj1 = {
 			["terange"] = 20;
 			["trg"] = "Player";
 		};
-		[34] = {
+		[35] = {
 			["gcd"] = "True";
 			["id"] = 7562;
 			["ignoremoving"] = true;
