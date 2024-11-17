@@ -334,6 +334,17 @@ local obj1 = {
 		};
 		[24] = {
 			["gcd"] = "True";
+			["id"] = 20;
+			["ignoremoving"] = true;
+			["levelmax"] = 67;
+			["levelmin"] = 2;
+			["maxRange"] = 0;
+			["name"] = "Fight or Flight";
+			["prio"] = 42;
+			["trg"] = "Player";
+		};
+		[25] = {
+			["gcd"] = "True";
 			["gcdtime"] = 1;
 			["id"] = 7383;
 			["ignoremoving"] = true;
@@ -343,7 +354,7 @@ local obj1 = {
 			["pbuff"] = "76";
 			["prio"] = 24;
 		};
-		[25] = {
+		[26] = {
 			["gcd"] = "True";
 			["gcdtime"] = 1;
 			["id"] = 36921;
@@ -356,7 +367,7 @@ local obj1 = {
 			["tarange"] = 5;
 			["terange"] = 5;
 		};
-		[26] = {
+		[27] = {
 			["gcd"] = "True";
 			["gcdtime"] = 1;
 			["id"] = 23;
@@ -371,7 +382,7 @@ local obj1 = {
 			["terange"] = 5;
 			["trg"] = "Player";
 		};
-		[27] = {
+		[28] = {
 			["gcd"] = "True";
 			["gcdtime"] = 1;
 			["id"] = 25747;
@@ -383,7 +394,7 @@ local obj1 = {
 			["tarange"] = 5;
 			["terange"] = 5;
 		};
-		[28] = {
+		[29] = {
 			["gcd"] = "True";
 			["gcdtime"] = 1;
 			["id"] = 29;
@@ -393,7 +404,7 @@ local obj1 = {
 			["name"] = "Spirits Within";
 			["prio"] = 28;
 		};
-		[29] = {
+		[30] = {
 			["gcd"] = "True";
 			["gcdtime"] = 1;
 			["id"] = 16461;
@@ -402,7 +413,7 @@ local obj1 = {
 			["name"] = "Intervene";
 			["prio"] = 29;
 		};
-		[30] = {
+		[31] = {
 			["gcd"] = "True";
 			["gcdtime"] = 1;
 			["id"] = 7531;
@@ -417,7 +428,7 @@ local obj1 = {
 			["prio"] = 30;
 			["trg"] = "Player";
 		};
-		[31] = {
+		[32] = {
 			["gcd"] = "True";
 			["gcdtime"] = 1;
 			["id"] = 17;
@@ -432,7 +443,7 @@ local obj1 = {
 			["prio"] = 31;
 			["trg"] = "Player";
 		};
-		[32] = {
+		[33] = {
 			["gcd"] = "True";
 			["gcdtime"] = 1;
 			["id"] = 36920;
@@ -447,7 +458,7 @@ local obj1 = {
 			["prio"] = 32;
 			["trg"] = "Player";
 		};
-		[33] = {
+		[34] = {
 			["gcd"] = "True";
 			["gcdtime"] = 0;
 			["id"] = 30;
@@ -459,7 +470,7 @@ local obj1 = {
 			["prio"] = 33;
 			["trg"] = "Player";
 		};
-		[34] = {
+		[35] = {
 			["gcd"] = "True";
 			["gcdtime"] = 1;
 			["id"] = 3542;
@@ -471,7 +482,7 @@ local obj1 = {
 			["secspassed"] = 12;
 			["trg"] = "Player";
 		};
-		[35] = {
+		[36] = {
 			["gcd"] = "True";
 			["gcdtime"] = 1;
 			["id"] = 25746;
@@ -483,7 +494,7 @@ local obj1 = {
 			["prio"] = 35;
 			["trg"] = "Player";
 		};
-		[36] = {
+		[37] = {
 			["gcd"] = "True";
 			["gcdtime"] = 1;
 			["id"] = 7535;
@@ -498,7 +509,7 @@ local obj1 = {
 			["terange"] = 5;
 			["trg"] = "Player";
 		};
-		[37] = {
+		[38] = {
 			["gcd"] = "True";
 			["gcdtime"] = 1;
 			["id"] = 7548;
@@ -514,7 +525,7 @@ local obj1 = {
 			["terange"] = 8;
 			["trg"] = "Player";
 		};
-		[38] = {
+		[39] = {
 			["gcd"] = "True";
 			["gcdtime"] = 1;
 			["id"] = 3540;
@@ -529,7 +540,7 @@ local obj1 = {
 			["terange"] = 15;
 			["trg"] = "Player";
 		};
-		[39] = {
+		[40] = {
 			["gcd"] = "True";
 			["gcdtime"] = 1;
 			["id"] = 36922;
@@ -537,11 +548,11 @@ local obj1 = {
 			["levelmin"] = 96;
 			["maxRange"] = 25;
 			["name"] = "Blade of Honor";
-			["prio"] = 41;
+			["prio"] = 39;
 			["tarange"] = 5;
 			["terange"] = 5;
 		};
-		[40] = {
+		[41] = {
 			["combat"] = "Any";
 			["gcd"] = "True";
 			["gcdtime"] = 0;
@@ -551,10 +562,10 @@ local obj1 = {
 			["maxRange"] = 0;
 			["name"] = "Iron Will";
 			["pnbuff"] = "79";
-			["prio"] = 39;
+			["prio"] = 40;
 			["trg"] = "Player";
 		};
-		[41] = {
+		[42] = {
 			["gcd"] = "False";
 			["id"] = 24;
 			["ignoremoving"] = true;
@@ -562,7 +573,7 @@ local obj1 = {
 			["maxRange"] = 20;
 			["minRange"] = 5;
 			["name"] = "Shield Lob";
-			["prio"] = 40;
+			["prio"] = 41;
 		};
 	};
 	["update"] = 20191017;
